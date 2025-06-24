@@ -21,11 +21,12 @@ model = AutoModelForCausalLM.from_pretrained(model_path,
 
 model.config.use_cache = False 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
+
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 lora_config = LoraConfig(
-   r=64,
+   r=32,
    lora_alpha=128,
    lora_dropout=0.05,
    bias="none",
@@ -34,7 +35,7 @@ lora_config = LoraConfig(
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 
-file_path = '../../datasets/add_sub.csv'
+file_path = '../../datasets/Add_Sub_100_ft.csv'
 
 df = pd.read_csv(file_path)
 dataset = Dataset.from_pandas(df)
@@ -44,6 +45,7 @@ def concat_clean_label(example):
     return example
 
 dataset = dataset.map(concat_clean_label)
+print(dataset)
 
 def create_labels_no_mask(example):
     tokenized = tokenizer(example["clean_label"], truncation=True, padding="max_length", max_length=256)
@@ -55,16 +57,29 @@ dataset = dataset.map(create_labels_no_mask, batched=False, remove_columns=['cle
 train_valid = dataset.train_test_split(test_size=0.1)
 train_valid_split = train_valid['train'].train_test_split(test_size=0.1)
 
+dataset_size = dataset['num_rows']  
+epochs = 2
+batch_size = 8 
+num_devices = 1
+
+# Step 1: Calculate total training steps
+steps_per_epoch = dataset_size // (batch_size * num_devices)
+total_steps = steps_per_epoch * epochs
+
+# Step 2: Compute save_steps to get 10 checkpoints
+save_steps = max(1, total_steps // 10)  # Avoid division by zero
+
+# Step 3: Set up TrainingArguments
 training_args = TrainingArguments(
     output_dir="./results2",
     logging_steps=1,
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    num_train_epochs=1,
+    per_device_train_batch_size=batch_size,
+    per_device_eval_batch_size=batch_size,
+    num_train_epochs=epochs,
     save_strategy="steps", 
-    save_steps = 1000,
-    max_steps = 10000,
-    logging_dir='./logs'
+    save_steps=save_steps,
+    logging_dir='./logs',
+    learning_rate=3e-4
 )
 
 trainer = Trainer(
