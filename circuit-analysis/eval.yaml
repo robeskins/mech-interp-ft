@@ -1,7 +1,0 @@
-hf_model_name: EleutherAI/pythia-1.4B-deduped
-translens_model_name: pythia-1.4B-deduped
-scratch_cache_dir: /mnt/fast0/rje41/.cache/huggingface
-checkpoint_folder: ../fine-tuning/add_sub/lora_opt_results/r32a64/
-graph_output_folder: graphs
-results_path: results/results_add_sub.json
-circuit_analyis_path: ../datasets/Add_Sub_100_circuit.csv

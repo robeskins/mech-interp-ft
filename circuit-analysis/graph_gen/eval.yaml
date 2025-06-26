@@ -1,0 +1,7 @@
+hf_model_name: EleutherAI/pythia-1.4B-deduped
+translens_model_name: pythia-1.4B-deduped
+scratch_cache_dir: /mnt/fast0/rje41/.cache/huggingface
+checkpoint_folder: ../fine-tuning/sequential-fine-tuning/adapter_checkpoints/mul_div
+graph_output_folder: graphs/mul_div
+results_path: results/results_mul_div.json
+circuit_analyis_path: ../datasets/Add_Sub_100_circuit.csv
