@@ -4,6 +4,7 @@ from datasets import load_dataset, Dataset
 from pathlib import Path
 import os
 from transformers.trainer_utils import get_last_checkpoint
+import math
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"  
 
@@ -19,7 +20,7 @@ class SequentialLoRATrainer:
         
         self.base_model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=os.path.join(scratch_cache_dir, "hub"))
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=os.path.join(scratch_cache_dir, "hub"))
-        print('Loaded {model_name}')
+        print(f'Loaded {model_name}')
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
             
@@ -145,28 +146,36 @@ class SequentialLoRATrainer:
                                   tasks_directory: str):
             
         task_file_paths = self.find_task_paths(tasks_directory)
-        print(task_file_paths)
+
+        gradient_accumulation_steps=4
+        per_device_train_batch_size=8
+        effective_batch_size = gradient_accumulation_steps * per_device_train_batch_size
+        num_saves_per_epoch = 5
+        num_epochs = 2
 
         for i,task in enumerate(task_file_paths):
             output_dir = f'./adapter_checkpoints/{task['task_name']}/'
-            training_args = TrainingArguments(output_dir=output_dir,    
-                                              num_train_epochs=2,                        
-                                              per_device_train_batch_size=8,            
-                                              warmup_steps=50,                            
-                                              weight_decay=0.01,                         
-                                              logging_dir='./logs',   
-                                              logging_steps=10,              
-                                              save_steps=28,                                
-                                              save_strategy="steps",                       
-                                              save_total_limit=10,                            
-                                              fp16=True,                                     
-                                              gradient_accumulation_steps=4,                
-                                              report_to="none",                             
-                                              learning_rate=3e-4,                            
-                                             )
-            
-            
             dataset = self.load_and_preprocess_data(task['train_path'], task['test_path'])
+            train_dataset_size = len(dataset['train'])
+            steps_per_epoch = math.ceil(train_dataset_size / effective_batch_size)
+            calculated_save_steps = math.ceil(steps_per_epoch / num_saves_per_epoch)
+
+            training_args = TrainingArguments(
+                                                output_dir=output_dir,
+                                                per_device_train_batch_size=per_device_train_batch_size,
+                                                weight_decay=0.01,
+                                                logging_dir='./logs',
+                                                logging_steps=10,
+                                                save_steps=200, 
+                                                save_strategy="steps",
+                                                fp16=True,
+                                                gradient_accumulation_steps=gradient_accumulation_steps,
+                                                report_to="none",
+                                                learning_rate=3e-4,
+                                                max_steps = 300, 
+                                                lr_scheduler_type="constant_with_warmup"
+                                            )
+            
             lora_model = self.load_latest_adapter(is_first=(i == 0))
             self.train_task(lora_model = lora_model,
                             dataset = dataset,

@@ -132,7 +132,6 @@ def evaluate_checkpoint(scratch_cache_dir: str,
     total_edges = len(g.edges)
     five_percent_edges = int(total_edges * percentage_prune)
     g.apply_topn(five_percent_edges , absolute=True)
-    g.prune_dead_nodes()
     baseline_performance, circuit_performance = calculate_accuracy(model, g, dataloader)
     faithfulness, percentage_performance = calculate_faithfulness(model, g, dataloader, partial(kl_divergence, loss=False, mean=False))
     return g, faithfulness, percentage_performance, baseline_performance, circuit_performance
