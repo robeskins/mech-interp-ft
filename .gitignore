@@ -196,3 +196,4 @@ cython_debug/
 wandb
 results
 adapter_checkpoints
+checkpoints
