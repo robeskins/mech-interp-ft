@@ -1,0 +1,8 @@
+{
+    "0.05": {
+        "faithfulness": 3.571141860447824e-05,
+        "percentage_performance": 91.09234887261537,
+        "model_accuracy": 1.0,
+        "graph_accuracy": 0.9520000219345093
+    }
+}

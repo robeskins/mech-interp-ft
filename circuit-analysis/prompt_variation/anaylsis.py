@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 from functools import partial
 
@@ -116,18 +116,18 @@ def calculate_accuracy(model, g, dataloader):
     graph_accuracy = evaluate_graph(model, g, dataloader, partial(exact_match_accuracy, model)).mean().item()   
     return baseline_accuracy, graph_accuracy
 
-for i in range(0,9):
-    checkpoint = 10
+for i in range(0,10):
+    checkpoint = 1000
     prompt_id = f'prompt_template_{i}'
     csv_id = f'prompts_id_{i}'
-    results_folder = f'results/checkpoint-{checkpoint}/{prompt_id}/'
+    results_folder = f'results-07-07-25/checkpoint-{checkpoint}/{prompt_id}/'
     results_folder = Path(results_folder)
     results_folder.mkdir(parents=True, exist_ok=True)
 
-    scratch_cache_dir = "/mnt/fast0/rje41/.cache/huggingface"    
+    scratch_cache_dir = "/mnt/faster0/rje41/.cache/huggingface"   
     hf_model_name = "EleutherAI/pythia-1.4B-deduped"
     translens_model_name="pythia-1.4B-deduped"
-    adapter_path = f"../../fine-tuning/add_sub_nlp/checkpoints/{prompt_id}/checkpoint-{checkpoint}"
+    adapter_path = f"../../fine-tuning/add_sub_nlp/checkpoints_no_prefix/{prompt_id}/checkpoint-{checkpoint}"
     model = load_model(
             adapter_path=adapter_path,
             hf_model_name=hf_model_name,
@@ -135,7 +135,7 @@ for i in range(0,9):
             scratch_cache_dir=scratch_cache_dir,
         )
     
-    ds = EAPDataset(f'../../fine-tuning/add_sub_nlp/datasets_csv/{csv_id}/test.csv')
+    ds = EAPDataset(f'../../fine-tuning/add_sub_nlp/datasets_csv_no_prefix/{csv_id}/test.csv')
     dataloader = ds.to_dataloader(6)
 
     g = Graph.from_model(model)

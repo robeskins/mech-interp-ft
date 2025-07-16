@@ -1,0 +1,25 @@
+model_name: "EleutherAI/pythia-1.4b-deduped"
+scratch_cache_dir: "/mnt/faster0/rje41/.cache/huggingface"
+dataset_path: 'two-digit-arithmetic/addition/datasets_csv'
+max_length_strings: 32
+
+training_args:
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 4
+  weight_decay: 0.01
+  logging_dir: "./logs"
+  logging_steps: 10
+  save_steps: 100
+  save_strategy: "steps"
+  eval_strategy: "steps"
+  eval_steps: 50
+  fp16: true
+  report_to: "none"
+  learning_rate: 3e-4
+  max_steps: 500
+  eval_accumulation_steps: 10
+  per_device_eval_batch_size: 10 
+
+lora_config:
+  r: 32
+  alpha: 64

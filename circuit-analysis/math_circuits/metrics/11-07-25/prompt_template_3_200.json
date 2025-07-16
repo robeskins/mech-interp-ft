@@ -1,0 +1,26 @@
+{
+    "0.001": {
+        "faithfulness": 2.569828211562708e-05,
+        "percentage_performance": 50.6368946042155,
+        "model_accuracy": 0.06800000369548798,
+        "graph_accuracy": 0.02199999988079071
+    },
+    "0.01": {
+        "faithfulness": 6.876362022012472e-06,
+        "percentage_performance": 86.79139011296948,
+        "model_accuracy": 0.06800000369548798,
+        "graph_accuracy": 0.04699999839067459
+    },
+    "0.02": {
+        "faithfulness": 4.826568329008296e-06,
+        "percentage_performance": 90.72878101140037,
+        "model_accuracy": 0.06800000369548798,
+        "graph_accuracy": 0.057999998331069946
+    },
+    "0.05": {
+        "faithfulness": 2.674700226634741e-06,
+        "percentage_performance": 94.8622437641771,
+        "model_accuracy": 0.06800000369548798,
+        "graph_accuracy": 0.057999998331069946
+    }
+}
