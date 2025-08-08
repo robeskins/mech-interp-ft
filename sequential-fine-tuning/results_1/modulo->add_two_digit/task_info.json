@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/modulo",
+  "task_b": "../dataset_gen/maths/add_two_digit",
+  "task_name": "modulo->add_two_digit",
+  "results_dir": "results/modulo->add_two_digit"
+}

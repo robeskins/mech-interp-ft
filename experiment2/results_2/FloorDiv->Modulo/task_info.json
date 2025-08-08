@@ -1,0 +1,6 @@
+{
+  "task_a": "datasets_2/FloorDiv",
+  "task_b": "datasets_2/Modulo",
+  "task_name": "FloorDiv->Modulo",
+  "results_dir": "results/FloorDiv->Modulo"
+}

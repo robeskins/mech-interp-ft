@@ -14,8 +14,8 @@ TRANSFORMER_LENS_NAME = "pythia-1.4B-deduped"
 RUN_NAME = '07-07-25'
 ADAPTER_PATHS = '../../fine-tuning/add_sub_nlp/checkpoints/'
 
-percentage_prunes = [0.001,0.01,0.02,0.05]
-allowed_checkpoint_ids = [100,500,1000]
+percentage_prunes = [0.05]
+allowed_checkpoint_ids = [500]
 
 if __name__ == '__main__':
     master_checkpoint_folder = Path('graph_only') / RUN_NAME

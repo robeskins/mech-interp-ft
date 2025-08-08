@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/modulo",
+  "task_b": "../dataset_gen/maths/addsub_inverse",
+  "task_name": "modulo->addsub_inverse",
+  "results_dir": "results/modulo->addsub_inverse"
+}

@@ -1,0 +1,10 @@
+{
+    "170": {
+        "model_kl": 0.00042127215419895947,
+        "circuit_kl": 0.0003863924357574433,
+        "faithfulness_kl": 3.487971844151616e-05,
+        "percentage_performance_kl": 91.7203835824755,
+        "model_accuracy": 0.8349999785423279,
+        "graph_accuracy": 0.6316666603088379
+    }
+}

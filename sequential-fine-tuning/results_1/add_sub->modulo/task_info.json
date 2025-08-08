@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/add_sub",
+  "task_b": "../dataset_gen/maths/modulo",
+  "task_name": "add_sub->modulo",
+  "results_dir": "results/add_sub->modulo"
+}

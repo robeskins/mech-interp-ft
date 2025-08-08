@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/sequence",
+  "task_b": "../dataset_gen/maths/spatial_reasoning",
+  "task_name": "sequence->spatial_reasoning",
+  "results_dir": "results/sequence->spatial_reasoning"
+}

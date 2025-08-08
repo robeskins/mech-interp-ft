@@ -1,0 +1,6 @@
+{
+  "task_a": "datasets_2/AddSub",
+  "task_b": "datasets_2/CondAddSub",
+  "task_name": "AddSub->CondAddSub",
+  "results_dir": "results/AddSub->CondAddSub"
+}

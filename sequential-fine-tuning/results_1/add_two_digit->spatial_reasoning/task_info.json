@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/add_two_digit",
+  "task_b": "../dataset_gen/maths/spatial_reasoning",
+  "task_name": "add_two_digit->spatial_reasoning",
+  "results_dir": "results/add_two_digit->spatial_reasoning"
+}

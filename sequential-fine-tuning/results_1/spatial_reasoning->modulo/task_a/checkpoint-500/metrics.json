@@ -1,0 +1,8 @@
+{
+  "model_kl": 0.00019096188771072775,
+  "circuit_kl": 0.00018500846636015922,
+  "faithfulness_kl": 5.953421350568533e-06,
+  "percentage_performance_kl": 96.88240338324113,
+  "model_accuracy": 0.16500000655651093,
+  "graph_accuracy": 0.18000000715255737
+}

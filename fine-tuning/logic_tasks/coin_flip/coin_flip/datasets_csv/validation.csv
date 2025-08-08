@@ -1,0 +1,601 @@
+clean,corrupted,answer
+A coin is tails up. Rita does nothing. Omar does nothing. Hank flips. Paul flips. The coin is,A coin is heads up. Rita does nothing. Omar does nothing. Hank flips. Paul flips. The coin is,tails
+A coin is tails up. Paul flips. Omar does nothing. Hank does nothing. Bob flips. The coin is,A coin is heads up. Paul flips. Omar does nothing. Hank does nothing. Bob flips. The coin is,tails
+A coin is tails up. Bob flips. Rita does nothing. Paul flips. Hank does nothing. The coin is,A coin is heads up. Bob flips. Rita does nothing. Paul flips. Hank does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Rita does nothing. Paul does nothing. Hank flips. The coin is,A coin is heads up. Omar does nothing. Rita does nothing. Paul does nothing. Hank flips. The coin is,heads
+A coin is tails up. Omar does nothing. Paul flips. Bob does nothing. Hank does nothing. The coin is,A coin is heads up. Omar does nothing. Paul flips. Bob does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Paul does nothing. Hank flips. Rita flips. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Hank flips. Rita flips. The coin is,heads
+A coin is tails up. Hank flips. Rita does nothing. Omar flips. Bob does nothing. The coin is,A coin is heads up. Hank flips. Rita does nothing. Omar flips. Bob does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Bob does nothing. Paul flips. Omar does nothing. The coin is,A coin is heads up. Hank does nothing. Bob does nothing. Paul flips. Omar does nothing. The coin is,heads
+A coin is heads up. Hank does nothing. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Hank does nothing. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Rita flips. Omar flips. Paul does nothing. Hank flips. The coin is,A coin is tails up. Rita flips. Omar flips. Paul does nothing. Hank flips. The coin is,tails
+A coin is heads up. Paul flips. Hank flips. Omar does nothing. Bob does nothing. The coin is,A coin is tails up. Paul flips. Hank flips. Omar does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita flips. Hank flips. Paul does nothing. Omar flips. The coin is,A coin is tails up. Rita flips. Hank flips. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Rita flips. Hank flips. Paul flips. Bob does nothing. The coin is,A coin is tails up. Rita flips. Hank flips. Paul flips. Bob does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Paul does nothing. Omar does nothing. Hank flips. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Omar does nothing. Hank flips. The coin is,tails
+A coin is heads up. Bob flips. Rita flips. Paul flips. Hank flips. The coin is,A coin is tails up. Bob flips. Rita flips. Paul flips. Hank flips. The coin is,heads
+A coin is heads up. Paul flips. Omar flips. Hank does nothing. Bob flips. The coin is,A coin is tails up. Paul flips. Omar flips. Hank does nothing. Bob flips. The coin is,tails
+A coin is heads up. Bob does nothing. Rita flips. Hank flips. Paul does nothing. The coin is,A coin is tails up. Bob does nothing. Rita flips. Hank flips. Paul does nothing. The coin is,heads
+A coin is tails up. Rita does nothing. Bob does nothing. Omar flips. Paul does nothing. The coin is,A coin is heads up. Rita does nothing. Bob does nothing. Omar flips. Paul does nothing. The coin is,heads
+A coin is heads up. Hank flips. Omar does nothing. Rita does nothing. Bob does nothing. The coin is,A coin is tails up. Hank flips. Omar does nothing. Rita does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Hank flips. Paul flips. Rita does nothing. Omar flips. The coin is,A coin is tails up. Hank flips. Paul flips. Rita does nothing. Omar flips. The coin is,tails
+A coin is heads up. Hank flips. Rita flips. Paul does nothing. Omar flips. The coin is,A coin is tails up. Hank flips. Rita flips. Paul does nothing. Omar flips. The coin is,tails
+A coin is tails up. Bob does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,A coin is heads up. Bob does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,tails
+A coin is heads up. Rita does nothing. Omar does nothing. Hank does nothing. Bob flips. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Hank does nothing. Bob flips. The coin is,tails
+A coin is heads up. Bob flips. Rita does nothing. Omar does nothing. Paul flips. The coin is,A coin is tails up. Bob flips. Rita does nothing. Omar does nothing. Paul flips. The coin is,heads
+A coin is heads up. Rita flips. Omar flips. Paul flips. Bob does nothing. The coin is,A coin is tails up. Rita flips. Omar flips. Paul flips. Bob does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Omar flips. Hank does nothing. Paul flips. The coin is,A coin is heads up. Rita does nothing. Omar flips. Hank does nothing. Paul flips. The coin is,tails
+A coin is heads up. Paul flips. Omar flips. Rita does nothing. Bob does nothing. The coin is,A coin is tails up. Paul flips. Omar flips. Rita does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Omar does nothing. Hank flips. Bob flips. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Hank flips. Bob flips. The coin is,heads
+A coin is tails up. Bob flips. Paul flips. Rita flips. Omar does nothing. The coin is,A coin is heads up. Bob flips. Paul flips. Rita flips. Omar does nothing. The coin is,heads
+A coin is heads up. Paul flips. Bob flips. Omar does nothing. Rita does nothing. The coin is,A coin is tails up. Paul flips. Bob flips. Omar does nothing. Rita does nothing. The coin is,heads
+A coin is tails up. Omar flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Omar flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Bob does nothing. Paul flips. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Paul flips. Hank flips. The coin is,heads
+A coin is tails up. Rita flips. Paul does nothing. Hank flips. Omar does nothing. The coin is,A coin is heads up. Rita flips. Paul does nothing. Hank flips. Omar does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Bob does nothing. Rita does nothing. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Rita does nothing. Hank flips. The coin is,tails
+A coin is heads up. Bob does nothing. Rita does nothing. Omar flips. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Rita does nothing. Omar flips. Hank does nothing. The coin is,tails
+A coin is tails up. Rita flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,A coin is heads up. Rita flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar does nothing. Bob does nothing. Hank flips. The coin is,A coin is heads up. Paul does nothing. Omar does nothing. Bob does nothing. Hank flips. The coin is,heads
+A coin is heads up. Paul does nothing. Rita does nothing. Hank flips. Bob does nothing. The coin is,A coin is tails up. Paul does nothing. Rita does nothing. Hank flips. Bob does nothing. The coin is,tails
+A coin is tails up. Bob flips. Hank flips. Rita flips. Omar does nothing. The coin is,A coin is heads up. Bob flips. Hank flips. Rita flips. Omar does nothing. The coin is,heads
+A coin is tails up. Rita flips. Bob flips. Omar does nothing. Paul does nothing. The coin is,A coin is heads up. Rita flips. Bob flips. Omar does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Omar flips. Hank does nothing. Paul flips. The coin is,A coin is tails up. Rita does nothing. Omar flips. Hank does nothing. Paul flips. The coin is,heads
+A coin is heads up. Hank does nothing. Paul flips. Rita flips. Omar flips. The coin is,A coin is tails up. Hank does nothing. Paul flips. Rita flips. Omar flips. The coin is,tails
+A coin is heads up. Bob flips. Hank does nothing. Omar flips. Paul flips. The coin is,A coin is tails up. Bob flips. Hank does nothing. Omar flips. Paul flips. The coin is,tails
+A coin is tails up. Rita does nothing. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,A coin is heads up. Rita does nothing. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Hank does nothing. Rita flips. Bob does nothing. The coin is,A coin is tails up. Paul does nothing. Hank does nothing. Rita flips. Bob does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Hank flips. Bob flips. Omar flips. The coin is,A coin is tails up. Paul does nothing. Hank flips. Bob flips. Omar flips. The coin is,tails
+A coin is heads up. Paul flips. Rita does nothing. Hank does nothing. Bob does nothing. The coin is,A coin is tails up. Paul flips. Rita does nothing. Hank does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar flips. Bob flips. Rita does nothing. The coin is,A coin is heads up. Paul does nothing. Omar flips. Bob flips. Rita does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Paul flips. Hank flips. Bob flips. The coin is,A coin is heads up. Omar does nothing. Paul flips. Hank flips. Bob flips. The coin is,heads
+A coin is heads up. Omar flips. Rita flips. Paul does nothing. Hank does nothing. The coin is,A coin is tails up. Omar flips. Rita flips. Paul does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Bob flips. Paul does nothing. Hank flips. Omar does nothing. The coin is,A coin is tails up. Bob flips. Paul does nothing. Hank flips. Omar does nothing. The coin is,heads
+A coin is tails up. Paul flips. Omar flips. Rita flips. Bob does nothing. The coin is,A coin is heads up. Paul flips. Omar flips. Rita flips. Bob does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Bob flips. Paul does nothing. Rita does nothing. The coin is,A coin is heads up. Omar does nothing. Bob flips. Paul does nothing. Rita does nothing. The coin is,heads
+A coin is tails up. Paul flips. Bob does nothing. Omar flips. Rita does nothing. The coin is,A coin is heads up. Paul flips. Bob does nothing. Omar flips. Rita does nothing. The coin is,tails
+A coin is heads up. Paul flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Paul flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,heads
+A coin is heads up. Paul flips. Bob flips. Omar does nothing. Rita flips. The coin is,A coin is tails up. Paul flips. Bob flips. Omar does nothing. Rita flips. The coin is,tails
+A coin is heads up. Paul flips. Hank does nothing. Omar flips. Rita does nothing. The coin is,A coin is tails up. Paul flips. Hank does nothing. Omar flips. Rita does nothing. The coin is,heads
+A coin is tails up. Bob flips. Paul does nothing. Hank does nothing. Rita flips. The coin is,A coin is heads up. Bob flips. Paul does nothing. Hank does nothing. Rita flips. The coin is,tails
+A coin is heads up. Hank flips. Rita flips. Omar flips. Bob does nothing. The coin is,A coin is tails up. Hank flips. Rita flips. Omar flips. Bob does nothing. The coin is,tails
+A coin is heads up. Hank flips. Paul does nothing. Omar flips. Bob does nothing. The coin is,A coin is tails up. Hank flips. Paul does nothing. Omar flips. Bob does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Bob flips. Rita does nothing. Paul flips. The coin is,A coin is heads up. Omar does nothing. Bob flips. Rita does nothing. Paul flips. The coin is,tails
+A coin is heads up. Omar flips. Rita does nothing. Hank flips. Paul flips. The coin is,A coin is tails up. Omar flips. Rita does nothing. Hank flips. Paul flips. The coin is,tails
+A coin is heads up. Omar does nothing. Rita flips. Paul flips. Bob flips. The coin is,A coin is tails up. Omar does nothing. Rita flips. Paul flips. Bob flips. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Bob does nothing. Paul does nothing. The coin is,A coin is tails up. Omar flips. Hank flips. Bob does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Omar does nothing. Hank flips. Paul does nothing. The coin is,A coin is heads up. Bob does nothing. Omar does nothing. Hank flips. Paul does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Hank does nothing. Bob flips. The coin is,A coin is heads up. Paul does nothing. Rita flips. Hank does nothing. Bob flips. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Rita flips. Bob does nothing. The coin is,A coin is tails up. Omar flips. Hank flips. Rita flips. Bob does nothing. The coin is,tails
+A coin is tails up. Rita flips. Omar does nothing. Bob flips. Hank flips. The coin is,A coin is heads up. Rita flips. Omar does nothing. Bob flips. Hank flips. The coin is,heads
+A coin is heads up. Hank does nothing. Omar does nothing. Rita does nothing. Paul flips. The coin is,A coin is tails up. Hank does nothing. Omar does nothing. Rita does nothing. Paul flips. The coin is,tails
+A coin is heads up. Hank does nothing. Paul flips. Bob flips. Omar does nothing. The coin is,A coin is tails up. Hank does nothing. Paul flips. Bob flips. Omar does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Omar does nothing. Bob flips. Paul flips. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Bob flips. Paul flips. The coin is,heads
+A coin is tails up. Rita does nothing. Hank flips. Omar flips. Paul flips. The coin is,A coin is heads up. Rita does nothing. Hank flips. Omar flips. Paul flips. The coin is,heads
+A coin is tails up. Rita flips. Bob does nothing. Hank does nothing. Paul flips. The coin is,A coin is heads up. Rita flips. Bob does nothing. Hank does nothing. Paul flips. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Paul flips. Bob flips. The coin is,A coin is tails up. Omar flips. Hank does nothing. Paul flips. Bob flips. The coin is,tails
+A coin is heads up. Omar does nothing. Rita does nothing. Bob flips. Hank does nothing. The coin is,A coin is tails up. Omar does nothing. Rita does nothing. Bob flips. Hank does nothing. The coin is,tails
+A coin is tails up. Omar flips. Hank does nothing. Paul flips. Bob does nothing. The coin is,A coin is heads up. Omar flips. Hank does nothing. Paul flips. Bob does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Omar does nothing. Rita flips. Paul flips. The coin is,A coin is tails up. Hank does nothing. Omar does nothing. Rita flips. Paul flips. The coin is,heads
+A coin is tails up. Bob flips. Paul flips. Omar does nothing. Hank flips. The coin is,A coin is heads up. Bob flips. Paul flips. Omar does nothing. Hank flips. The coin is,heads
+A coin is tails up. Paul does nothing. Omar does nothing. Rita does nothing. Bob flips. The coin is,A coin is heads up. Paul does nothing. Omar does nothing. Rita does nothing. Bob flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Hank does nothing. Omar flips. The coin is,A coin is heads up. Paul does nothing. Rita flips. Hank does nothing. Omar flips. The coin is,tails
+A coin is heads up. Paul does nothing. Rita does nothing. Bob flips. Omar flips. The coin is,A coin is tails up. Paul does nothing. Rita does nothing. Bob flips. Omar flips. The coin is,heads
+A coin is heads up. Bob does nothing. Rita flips. Hank flips. Omar flips. The coin is,A coin is tails up. Bob does nothing. Rita flips. Hank flips. Omar flips. The coin is,tails
+A coin is tails up. Hank flips. Omar does nothing. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Hank flips. Omar does nothing. Rita does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Paul flips. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Paul flips. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Paul flips. Bob flips. Rita does nothing. Hank flips. The coin is,A coin is tails up. Paul flips. Bob flips. Rita does nothing. Hank flips. The coin is,tails
+A coin is tails up. Omar flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Omar flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Hank does nothing. Rita does nothing. Bob flips. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Rita does nothing. Bob flips. The coin is,heads
+A coin is tails up. Paul does nothing. Bob does nothing. Omar flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Bob does nothing. Omar flips. Rita flips. The coin is,tails
+A coin is tails up. Paul does nothing. Omar flips. Hank flips. Bob flips. The coin is,A coin is heads up. Paul does nothing. Omar flips. Hank flips. Bob flips. The coin is,heads
+A coin is heads up. Omar flips. Paul flips. Hank flips. Bob flips. The coin is,A coin is tails up. Omar flips. Paul flips. Hank flips. Bob flips. The coin is,heads
+A coin is tails up. Rita flips. Bob flips. Paul does nothing. Omar does nothing. The coin is,A coin is heads up. Rita flips. Bob flips. Paul does nothing. Omar does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Bob flips. Paul flips. Rita does nothing. The coin is,A coin is heads up. Omar does nothing. Bob flips. Paul flips. Rita does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Omar flips. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Bob does nothing. Omar flips. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Rita does nothing. Paul flips. Bob does nothing. The coin is,A coin is tails up. Hank does nothing. Rita does nothing. Paul flips. Bob does nothing. The coin is,tails
+A coin is tails up. Paul flips. Bob does nothing. Rita flips. Omar flips. The coin is,A coin is heads up. Paul flips. Bob does nothing. Rita flips. Omar flips. The coin is,heads
+A coin is tails up. Hank flips. Bob flips. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Hank flips. Bob flips. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Rita does nothing. Paul flips. Hank flips. The coin is,A coin is tails up. Bob does nothing. Rita does nothing. Paul flips. Hank flips. The coin is,heads
+A coin is tails up. Rita does nothing. Omar does nothing. Bob flips. Hank does nothing. The coin is,A coin is heads up. Rita does nothing. Omar does nothing. Bob flips. Hank does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Rita flips. Omar does nothing. Paul flips. The coin is,A coin is tails up. Bob does nothing. Rita flips. Omar does nothing. Paul flips. The coin is,heads
+A coin is tails up. Omar flips. Bob does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Omar flips. Bob does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Paul flips. Bob flips. Hank flips. The coin is,A coin is tails up. Rita does nothing. Paul flips. Bob flips. Hank flips. The coin is,tails
+A coin is tails up. Bob does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,A coin is heads up. Bob does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,tails
+A coin is heads up. Paul flips. Bob does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Paul flips. Bob does nothing. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Omar flips. Hank does nothing. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Omar flips. Hank does nothing. Paul does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Omar flips. Rita does nothing. Bob does nothing. Hank does nothing. The coin is,A coin is tails up. Omar flips. Rita does nothing. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Rita flips. Bob does nothing. Hank does nothing. The coin is,A coin is heads up. Omar does nothing. Rita flips. Bob does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Paul flips. Rita flips. Bob does nothing. Hank does nothing. The coin is,A coin is heads up. Paul flips. Rita flips. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Paul does nothing. Bob does nothing. Hank flips. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Bob does nothing. Hank flips. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Rita flips. Paul does nothing. The coin is,A coin is tails up. Omar flips. Hank flips. Rita flips. Paul does nothing. The coin is,tails
+A coin is tails up. Paul flips. Hank flips. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Paul flips. Hank flips. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Paul flips. Omar flips. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Paul flips. Omar flips. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Omar does nothing. Bob flips. Hank flips. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Bob flips. Hank flips. The coin is,heads
+A coin is tails up. Hank does nothing. Paul flips. Rita does nothing. Bob flips. The coin is,A coin is heads up. Hank does nothing. Paul flips. Rita does nothing. Bob flips. The coin is,tails
+A coin is heads up. Bob flips. Rita flips. Omar does nothing. Paul flips. The coin is,A coin is tails up. Bob flips. Rita flips. Omar does nothing. Paul flips. The coin is,tails
+A coin is tails up. Hank does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,tails
+A coin is heads up. Rita flips. Bob flips. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Rita flips. Bob flips. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Rita flips. Hank does nothing. Paul does nothing. Omar does nothing. The coin is,A coin is tails up. Rita flips. Hank does nothing. Paul does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Bob flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Bob flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Bob flips. Rita does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Bob flips. Rita does nothing. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Rita does nothing. Bob does nothing. Omar flips. The coin is,A coin is tails up. Hank does nothing. Rita does nothing. Bob does nothing. Omar flips. The coin is,tails
+A coin is heads up. Hank flips. Paul flips. Rita does nothing. Bob does nothing. The coin is,A coin is tails up. Hank flips. Paul flips. Rita does nothing. Bob does nothing. The coin is,heads
+A coin is tails up. Omar flips. Hank flips. Rita flips. Paul does nothing. The coin is,A coin is heads up. Omar flips. Hank flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Rita flips. Bob does nothing. Hank flips. The coin is,A coin is heads up. Omar does nothing. Rita flips. Bob does nothing. Hank flips. The coin is,tails
+A coin is tails up. Hank does nothing. Omar flips. Rita flips. Bob flips. The coin is,A coin is heads up. Hank does nothing. Omar flips. Rita flips. Bob flips. The coin is,heads
+A coin is tails up. Rita does nothing. Omar does nothing. Hank flips. Bob flips. The coin is,A coin is heads up. Rita does nothing. Omar does nothing. Hank flips. Bob flips. The coin is,tails
+A coin is tails up. Hank does nothing. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Hank does nothing. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Rita does nothing. Hank does nothing. Omar does nothing. The coin is,A coin is tails up. Paul does nothing. Rita does nothing. Hank does nothing. Omar does nothing. The coin is,heads
+A coin is heads up. Hank flips. Bob flips. Omar does nothing. Paul does nothing. The coin is,A coin is tails up. Hank flips. Bob flips. Omar does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Omar does nothing. Rita flips. Hank flips. The coin is,A coin is tails up. Bob does nothing. Omar does nothing. Rita flips. Hank flips. The coin is,heads
+A coin is tails up. Omar does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,A coin is heads up. Omar does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,tails
+A coin is heads up. Rita flips. Hank does nothing. Paul does nothing. Omar flips. The coin is,A coin is tails up. Rita flips. Hank does nothing. Paul does nothing. Omar flips. The coin is,heads
+A coin is tails up. Rita does nothing. Hank does nothing. Bob does nothing. Paul flips. The coin is,A coin is heads up. Rita does nothing. Hank does nothing. Bob does nothing. Paul flips. The coin is,heads
+A coin is heads up. Paul flips. Rita does nothing. Bob does nothing. Hank does nothing. The coin is,A coin is tails up. Paul flips. Rita does nothing. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Omar does nothing. Paul does nothing. Bob flips. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Paul does nothing. Bob flips. The coin is,heads
+A coin is tails up. Omar flips. Paul does nothing. Rita flips. Bob flips. The coin is,A coin is heads up. Omar flips. Paul does nothing. Rita flips. Bob flips. The coin is,heads
+A coin is tails up. Rita flips. Hank does nothing. Omar flips. Paul flips. The coin is,A coin is heads up. Rita flips. Hank does nothing. Omar flips. Paul flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita does nothing. Omar does nothing. Bob flips. The coin is,A coin is heads up. Paul does nothing. Rita does nothing. Omar does nothing. Bob flips. The coin is,heads
+A coin is heads up. Rita does nothing. Bob does nothing. Hank does nothing. Omar flips. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Hank does nothing. Omar flips. The coin is,tails
+A coin is tails up. Omar does nothing. Rita flips. Paul flips. Hank does nothing. The coin is,A coin is heads up. Omar does nothing. Rita flips. Paul flips. Hank does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Omar flips. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Hank does nothing. Omar flips. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Omar does nothing. Rita does nothing. Paul flips. The coin is,A coin is tails up. Bob does nothing. Omar does nothing. Rita does nothing. Paul flips. The coin is,tails
+A coin is heads up. Hank does nothing. Rita flips. Omar does nothing. Bob does nothing. The coin is,A coin is tails up. Hank does nothing. Rita flips. Omar does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Paul flips. Bob flips. Rita flips. Omar does nothing. The coin is,A coin is tails up. Paul flips. Bob flips. Rita flips. Omar does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Paul flips. Bob does nothing. Omar does nothing. The coin is,A coin is heads up. Hank does nothing. Paul flips. Bob does nothing. Omar does nothing. The coin is,heads
+A coin is heads up. Hank flips. Rita does nothing. Paul does nothing. Bob does nothing. The coin is,A coin is tails up. Hank flips. Rita does nothing. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Rita flips. Paul does nothing. Hank does nothing. The coin is,A coin is tails up. Omar does nothing. Rita flips. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Rita flips. Bob flips. Paul flips. Hank flips. The coin is,A coin is tails up. Rita flips. Bob flips. Paul flips. Hank flips. The coin is,heads
+A coin is tails up. Bob does nothing. Omar does nothing. Hank flips. Rita does nothing. The coin is,A coin is heads up. Bob does nothing. Omar does nothing. Hank flips. Rita does nothing. The coin is,heads
+A coin is tails up. Omar flips. Hank flips. Rita does nothing. Paul flips. The coin is,A coin is heads up. Omar flips. Hank flips. Rita does nothing. Paul flips. The coin is,heads
+A coin is heads up. Hank flips. Rita flips. Omar flips. Paul does nothing. The coin is,A coin is tails up. Hank flips. Rita flips. Omar flips. Paul does nothing. The coin is,tails
+A coin is tails up. Bob flips. Omar does nothing. Rita does nothing. Hank flips. The coin is,A coin is heads up. Bob flips. Omar does nothing. Rita does nothing. Hank flips. The coin is,tails
+A coin is heads up. Omar does nothing. Hank does nothing. Paul does nothing. Rita flips. The coin is,A coin is tails up. Omar does nothing. Hank does nothing. Paul does nothing. Rita flips. The coin is,tails
+A coin is tails up. Hank does nothing. Rita flips. Paul flips. Omar flips. The coin is,A coin is heads up. Hank does nothing. Rita flips. Paul flips. Omar flips. The coin is,heads
+A coin is heads up. Paul flips. Bob flips. Omar flips. Rita flips. The coin is,A coin is tails up. Paul flips. Bob flips. Omar flips. Rita flips. The coin is,heads
+A coin is heads up. Bob does nothing. Hank flips. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Bob does nothing. Hank flips. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Paul flips. Rita flips. Bob flips. Hank flips. The coin is,A coin is tails up. Paul flips. Rita flips. Bob flips. Hank flips. The coin is,heads
+A coin is tails up. Rita flips. Omar flips. Bob does nothing. Paul flips. The coin is,A coin is heads up. Rita flips. Omar flips. Bob does nothing. Paul flips. The coin is,heads
+A coin is tails up. Omar does nothing. Bob flips. Rita does nothing. Hank flips. The coin is,A coin is heads up. Omar does nothing. Bob flips. Rita does nothing. Hank flips. The coin is,tails
+A coin is tails up. Omar does nothing. Paul flips. Hank flips. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Paul flips. Hank flips. Bob does nothing. The coin is,tails
+A coin is tails up. Hank flips. Paul does nothing. Omar flips. Bob flips. The coin is,A coin is heads up. Hank flips. Paul does nothing. Omar flips. Bob flips. The coin is,heads
+A coin is heads up. Paul flips. Bob flips. Rita flips. Hank flips. The coin is,A coin is tails up. Paul flips. Bob flips. Rita flips. Hank flips. The coin is,heads
+A coin is tails up. Bob flips. Omar flips. Hank does nothing. Rita flips. The coin is,A coin is heads up. Bob flips. Omar flips. Hank does nothing. Rita flips. The coin is,heads
+A coin is tails up. Omar flips. Paul does nothing. Bob does nothing. Hank flips. The coin is,A coin is heads up. Omar flips. Paul does nothing. Bob does nothing. Hank flips. The coin is,tails
+A coin is tails up. Hank flips. Bob does nothing. Omar does nothing. Paul flips. The coin is,A coin is heads up. Hank flips. Bob does nothing. Omar does nothing. Paul flips. The coin is,tails
+A coin is heads up. Paul flips. Omar flips. Hank flips. Rita does nothing. The coin is,A coin is tails up. Paul flips. Omar flips. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Paul flips. Bob does nothing. Rita does nothing. The coin is,A coin is tails up. Hank does nothing. Paul flips. Bob does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Bob flips. Hank flips. Paul does nothing. Omar flips. The coin is,A coin is tails up. Bob flips. Hank flips. Paul does nothing. Omar flips. The coin is,tails
+A coin is tails up. Bob flips. Rita does nothing. Hank flips. Paul flips. The coin is,A coin is heads up. Bob flips. Rita does nothing. Hank flips. Paul flips. The coin is,heads
+A coin is tails up. Hank does nothing. Rita does nothing. Omar flips. Paul does nothing. The coin is,A coin is heads up. Hank does nothing. Rita does nothing. Omar flips. Paul does nothing. The coin is,heads
+A coin is tails up. Bob flips. Omar does nothing. Rita flips. Hank flips. The coin is,A coin is heads up. Bob flips. Omar does nothing. Rita flips. Hank flips. The coin is,heads
+A coin is tails up. Paul does nothing. Bob flips. Hank flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Bob flips. Hank flips. Rita flips. The coin is,heads
+A coin is tails up. Rita flips. Paul flips. Bob does nothing. Hank does nothing. The coin is,A coin is heads up. Rita flips. Paul flips. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Hank flips. Paul flips. Bob does nothing. Rita does nothing. The coin is,A coin is tails up. Hank flips. Paul flips. Bob does nothing. Rita does nothing. The coin is,heads
+A coin is tails up. Bob flips. Rita flips. Omar flips. Hank flips. The coin is,A coin is heads up. Bob flips. Rita flips. Omar flips. Hank flips. The coin is,tails
+A coin is heads up. Omar flips. Bob flips. Rita does nothing. Paul flips. The coin is,A coin is tails up. Omar flips. Bob flips. Rita does nothing. Paul flips. The coin is,tails
+A coin is tails up. Hank flips. Omar flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Hank flips. Omar flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Bob does nothing. Paul does nothing. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Paul does nothing. Hank flips. The coin is,tails
+A coin is heads up. Bob flips. Paul does nothing. Omar flips. Rita does nothing. The coin is,A coin is tails up. Bob flips. Paul does nothing. Omar flips. Rita does nothing. The coin is,heads
+A coin is heads up. Paul flips. Omar does nothing. Hank flips. Rita flips. The coin is,A coin is tails up. Paul flips. Omar does nothing. Hank flips. Rita flips. The coin is,tails
+A coin is heads up. Bob flips. Omar flips. Rita does nothing. Paul flips. The coin is,A coin is tails up. Bob flips. Omar flips. Rita does nothing. Paul flips. The coin is,tails
+A coin is tails up. Omar flips. Bob does nothing. Hank does nothing. Rita flips. The coin is,A coin is heads up. Omar flips. Bob does nothing. Hank does nothing. Rita flips. The coin is,tails
+A coin is heads up. Rita flips. Bob does nothing. Omar does nothing. Hank flips. The coin is,A coin is tails up. Rita flips. Bob does nothing. Omar does nothing. Hank flips. The coin is,heads
+A coin is tails up. Omar flips. Hank flips. Paul flips. Bob flips. The coin is,A coin is heads up. Omar flips. Hank flips. Paul flips. Bob flips. The coin is,tails
+A coin is tails up. Rita does nothing. Bob flips. Paul flips. Omar flips. The coin is,A coin is heads up. Rita does nothing. Bob flips. Paul flips. Omar flips. The coin is,heads
+A coin is tails up. Omar flips. Rita does nothing. Paul does nothing. Hank flips. The coin is,A coin is heads up. Omar flips. Rita does nothing. Paul does nothing. Hank flips. The coin is,tails
+A coin is heads up. Paul does nothing. Rita does nothing. Omar flips. Hank flips. The coin is,A coin is tails up. Paul does nothing. Rita does nothing. Omar flips. Hank flips. The coin is,heads
+A coin is tails up. Paul flips. Omar flips. Hank flips. Bob does nothing. The coin is,A coin is heads up. Paul flips. Omar flips. Hank flips. Bob does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Hank does nothing. Rita flips. Bob flips. The coin is,A coin is tails up. Omar does nothing. Hank does nothing. Rita flips. Bob flips. The coin is,heads
+A coin is tails up. Omar flips. Rita does nothing. Hank flips. Bob does nothing. The coin is,A coin is heads up. Omar flips. Rita does nothing. Hank flips. Bob does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Rita does nothing. Hank does nothing. Paul flips. The coin is,A coin is tails up. Omar does nothing. Rita does nothing. Hank does nothing. Paul flips. The coin is,tails
+A coin is heads up. Paul does nothing. Hank flips. Omar flips. Rita does nothing. The coin is,A coin is tails up. Paul does nothing. Hank flips. Omar flips. Rita does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Hank does nothing. Omar does nothing. Paul flips. The coin is,A coin is heads up. Bob does nothing. Hank does nothing. Omar does nothing. Paul flips. The coin is,heads
+A coin is tails up. Rita flips. Omar flips. Paul does nothing. Hank flips. The coin is,A coin is heads up. Rita flips. Omar flips. Paul does nothing. Hank flips. The coin is,heads
+A coin is heads up. Omar flips. Hank flips. Bob flips. Paul flips. The coin is,A coin is tails up. Omar flips. Hank flips. Bob flips. Paul flips. The coin is,heads
+A coin is heads up. Hank flips. Rita flips. Omar does nothing. Bob flips. The coin is,A coin is tails up. Hank flips. Rita flips. Omar does nothing. Bob flips. The coin is,tails
+A coin is tails up. Bob flips. Omar flips. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Bob flips. Omar flips. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Rita flips. Bob flips. Paul flips. Hank does nothing. The coin is,A coin is tails up. Rita flips. Bob flips. Paul flips. Hank does nothing. The coin is,tails
+A coin is tails up. Rita flips. Paul flips. Hank flips. Bob does nothing. The coin is,A coin is heads up. Rita flips. Paul flips. Hank flips. Bob does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Omar flips. Paul does nothing. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Omar flips. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Bob flips. Omar does nothing. Hank does nothing. Paul flips. The coin is,A coin is tails up. Bob flips. Omar does nothing. Hank does nothing. Paul flips. The coin is,heads
+A coin is heads up. Hank does nothing. Paul does nothing. Bob does nothing. Rita does nothing. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Bob does nothing. Rita does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Hank flips. Omar flips. Rita flips. The coin is,A coin is heads up. Bob does nothing. Hank flips. Omar flips. Rita flips. The coin is,heads
+A coin is tails up. Paul does nothing. Hank does nothing. Bob does nothing. Rita flips. The coin is,A coin is heads up. Paul does nothing. Hank does nothing. Bob does nothing. Rita flips. The coin is,heads
+A coin is heads up. Omar flips. Bob does nothing. Rita flips. Hank flips. The coin is,A coin is tails up. Omar flips. Bob does nothing. Rita flips. Hank flips. The coin is,tails
+A coin is tails up. Paul flips. Omar does nothing. Hank flips. Rita flips. The coin is,A coin is heads up. Paul flips. Omar does nothing. Hank flips. Rita flips. The coin is,heads
+A coin is heads up. Omar flips. Rita flips. Paul does nothing. Bob flips. The coin is,A coin is tails up. Omar flips. Rita flips. Paul does nothing. Bob flips. The coin is,tails
+A coin is tails up. Paul does nothing. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Paul does nothing. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Paul does nothing. Rita flips. The coin is,A coin is tails up. Omar flips. Hank flips. Paul does nothing. Rita flips. The coin is,tails
+A coin is tails up. Paul flips. Bob flips. Rita flips. Hank flips. The coin is,A coin is heads up. Paul flips. Bob flips. Rita flips. Hank flips. The coin is,tails
+A coin is tails up. Paul does nothing. Bob flips. Hank flips. Rita does nothing. The coin is,A coin is heads up. Paul does nothing. Bob flips. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Omar does nothing. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Hank does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Paul does nothing. Rita flips. Bob flips. The coin is,A coin is heads up. Hank does nothing. Paul does nothing. Rita flips. Bob flips. The coin is,tails
+A coin is heads up. Hank does nothing. Paul does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Omar does nothing. Rita flips. The coin is,tails
+A coin is tails up. Rita flips. Hank does nothing. Omar does nothing. Bob flips. The coin is,A coin is heads up. Rita flips. Hank does nothing. Omar does nothing. Bob flips. The coin is,tails
+A coin is tails up. Omar does nothing. Rita flips. Hank does nothing. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Rita flips. Hank does nothing. Bob does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Paul flips. Omar flips. Bob does nothing. The coin is,A coin is heads up. Hank does nothing. Paul flips. Omar flips. Bob does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Bob does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is heads up. Rita does nothing. Bob does nothing. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Rita flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Rita flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Bob does nothing. Omar does nothing. Paul does nothing. Hank does nothing. The coin is,A coin is heads up. Bob does nothing. Omar does nothing. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Hank flips. Bob does nothing. Paul does nothing. The coin is,A coin is tails up. Omar does nothing. Hank flips. Bob does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Bob flips. Omar flips. Rita flips. Paul does nothing. The coin is,A coin is tails up. Bob flips. Omar flips. Rita flips. Paul does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Bob flips. Omar does nothing. Hank flips. The coin is,A coin is tails up. Paul does nothing. Bob flips. Omar does nothing. Hank flips. The coin is,heads
+A coin is tails up. Rita flips. Bob does nothing. Omar flips. Hank does nothing. The coin is,A coin is heads up. Rita flips. Bob does nothing. Omar flips. Hank does nothing. The coin is,tails
+A coin is tails up. Bob does nothing. Rita does nothing. Hank does nothing. Paul does nothing. The coin is,A coin is heads up. Bob does nothing. Rita does nothing. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Bob does nothing. Rita flips. Omar does nothing. Hank flips. The coin is,A coin is heads up. Bob does nothing. Rita flips. Omar does nothing. Hank flips. The coin is,tails
+A coin is heads up. Bob flips. Rita flips. Omar flips. Paul flips. The coin is,A coin is tails up. Bob flips. Rita flips. Omar flips. Paul flips. The coin is,heads
+A coin is heads up. Bob does nothing. Paul does nothing. Hank flips. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Hank flips. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,A coin is tails up. Hank flips. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,A coin is tails up. Omar does nothing. Hank flips. Rita does nothing. Paul flips. The coin is,heads
+A coin is heads up. Omar does nothing. Rita does nothing. Paul flips. Bob flips. The coin is,A coin is tails up. Omar does nothing. Rita does nothing. Paul flips. Bob flips. The coin is,heads
+A coin is tails up. Bob flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,A coin is heads up. Bob flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,tails
+A coin is tails up. Omar flips. Bob flips. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Omar flips. Bob flips. Rita does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Paul flips. Omar flips. Bob flips. Hank does nothing. The coin is,A coin is heads up. Paul flips. Omar flips. Bob flips. Hank does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Paul flips. Omar does nothing. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Paul flips. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Hank does nothing. Paul flips. Rita flips. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Paul flips. Rita flips. The coin is,tails
+A coin is heads up. Rita flips. Bob does nothing. Paul flips. Hank does nothing. The coin is,A coin is tails up. Rita flips. Bob does nothing. Paul flips. Hank does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Bob does nothing. Hank does nothing. Paul flips. The coin is,A coin is heads up. Omar does nothing. Bob does nothing. Hank does nothing. Paul flips. The coin is,heads
+A coin is heads up. Paul does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,A coin is tails up. Paul does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,heads
+A coin is heads up. Paul does nothing. Omar flips. Hank flips. Bob flips. The coin is,A coin is tails up. Paul does nothing. Omar flips. Hank flips. Bob flips. The coin is,tails
+A coin is tails up. Bob does nothing. Rita does nothing. Paul does nothing. Omar flips. The coin is,A coin is heads up. Bob does nothing. Rita does nothing. Paul does nothing. Omar flips. The coin is,heads
+A coin is tails up. Bob flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Bob flips. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Hank flips. Paul does nothing. Rita flips. Omar does nothing. The coin is,A coin is heads up. Hank flips. Paul does nothing. Rita flips. Omar does nothing. The coin is,tails
+A coin is heads up. Bob flips. Omar flips. Paul does nothing. Rita flips. The coin is,A coin is tails up. Bob flips. Omar flips. Paul does nothing. Rita flips. The coin is,tails
+A coin is tails up. Paul flips. Bob does nothing. Hank flips. Rita does nothing. The coin is,A coin is heads up. Paul flips. Bob does nothing. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Paul does nothing. Omar does nothing. Bob does nothing. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Omar does nothing. Bob does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Paul does nothing. Rita flips. Hank flips. The coin is,A coin is heads up. Omar does nothing. Paul does nothing. Rita flips. Hank flips. The coin is,tails
+A coin is heads up. Hank flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,A coin is tails up. Hank flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,heads
+A coin is tails up. Hank does nothing. Rita does nothing. Omar does nothing. Bob flips. The coin is,A coin is heads up. Hank does nothing. Rita does nothing. Omar does nothing. Bob flips. The coin is,heads
+A coin is heads up. Omar flips. Bob does nothing. Paul does nothing. Hank does nothing. The coin is,A coin is tails up. Omar flips. Bob does nothing. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Omar flips. Bob flips. Hank flips. The coin is,A coin is heads up. Rita does nothing. Omar flips. Bob flips. Hank flips. The coin is,heads
+A coin is heads up. Omar does nothing. Bob flips. Paul does nothing. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob flips. Paul does nothing. Hank flips. The coin is,heads
+A coin is tails up. Hank flips. Bob flips. Paul does nothing. Omar flips. The coin is,A coin is heads up. Hank flips. Bob flips. Paul does nothing. Omar flips. The coin is,heads
+A coin is tails up. Paul does nothing. Hank flips. Rita does nothing. Bob does nothing. The coin is,A coin is heads up. Paul does nothing. Hank flips. Rita does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Hank does nothing. Rita flips. Paul does nothing. Omar does nothing. The coin is,A coin is tails up. Hank does nothing. Rita flips. Paul does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Hank flips. Rita flips. Paul flips. Omar does nothing. The coin is,A coin is tails up. Hank flips. Rita flips. Paul flips. Omar does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Paul does nothing. Rita does nothing. Omar does nothing. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Rita does nothing. Omar does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Paul does nothing. Rita flips. Bob flips. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Rita flips. Bob flips. The coin is,heads
+A coin is heads up. Paul does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,A coin is tails up. Paul does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,heads
+A coin is heads up. Bob flips. Hank flips. Paul flips. Omar does nothing. The coin is,A coin is tails up. Bob flips. Hank flips. Paul flips. Omar does nothing. The coin is,tails
+A coin is heads up. Bob flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,A coin is tails up. Bob flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Hank flips. Rita does nothing. Bob does nothing. Paul does nothing. The coin is,A coin is heads up. Hank flips. Rita does nothing. Bob does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Rita flips. Hank flips. Omar does nothing. Paul flips. The coin is,A coin is tails up. Rita flips. Hank flips. Omar does nothing. Paul flips. The coin is,tails
+A coin is tails up. Bob flips. Paul flips. Omar does nothing. Rita flips. The coin is,A coin is heads up. Bob flips. Paul flips. Omar does nothing. Rita flips. The coin is,heads
+A coin is heads up. Paul flips. Omar does nothing. Bob flips. Hank flips. The coin is,A coin is tails up. Paul flips. Omar does nothing. Bob flips. Hank flips. The coin is,tails
+A coin is heads up. Hank does nothing. Rita does nothing. Omar does nothing. Paul flips. The coin is,A coin is tails up. Hank does nothing. Rita does nothing. Omar does nothing. Paul flips. The coin is,tails
+A coin is heads up. Hank flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Hank flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,heads
+A coin is heads up. Hank flips. Rita does nothing. Paul does nothing. Bob flips. The coin is,A coin is tails up. Hank flips. Rita does nothing. Paul does nothing. Bob flips. The coin is,heads
+A coin is tails up. Bob flips. Paul flips. Hank does nothing. Rita does nothing. The coin is,A coin is heads up. Bob flips. Paul flips. Hank does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar flips. Bob does nothing. Rita flips. The coin is,A coin is heads up. Paul does nothing. Omar flips. Bob does nothing. Rita flips. The coin is,tails
+A coin is tails up. Rita flips. Bob flips. Hank flips. Omar does nothing. The coin is,A coin is heads up. Rita flips. Bob flips. Hank flips. Omar does nothing. The coin is,heads
+A coin is tails up. Paul flips. Bob does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Paul flips. Bob does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Paul flips. Omar flips. Bob flips. Hank does nothing. The coin is,A coin is tails up. Paul flips. Omar flips. Bob flips. Hank does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Paul does nothing. Bob does nothing. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Paul does nothing. Bob does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Hank flips. Rita does nothing. Omar does nothing. Bob does nothing. The coin is,A coin is heads up. Hank flips. Rita does nothing. Omar does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Paul does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Omar does nothing. Rita flips. The coin is,tails
+A coin is heads up. Rita does nothing. Omar does nothing. Hank flips. Bob does nothing. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Hank flips. Bob does nothing. The coin is,tails
+A coin is heads up. Hank flips. Paul does nothing. Bob flips. Rita does nothing. The coin is,A coin is tails up. Hank flips. Paul does nothing. Bob flips. Rita does nothing. The coin is,heads
+A coin is tails up. Hank flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,A coin is heads up. Hank flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Bob flips. Rita flips. Paul does nothing. Omar flips. The coin is,A coin is tails up. Bob flips. Rita flips. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,A coin is tails up. Omar flips. Hank flips. Paul does nothing. Bob does nothing. The coin is,heads
+A coin is tails up. Paul flips. Hank flips. Rita does nothing. Omar flips. The coin is,A coin is heads up. Paul flips. Hank flips. Rita does nothing. Omar flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Omar flips. Bob does nothing. The coin is,A coin is heads up. Paul does nothing. Rita flips. Omar flips. Bob does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Bob does nothing. Paul flips. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Paul flips. Hank does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Hank flips. Omar flips. Bob does nothing. The coin is,A coin is heads up. Paul does nothing. Hank flips. Omar flips. Bob does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Paul flips. Bob flips. Rita flips. The coin is,A coin is heads up. Hank does nothing. Paul flips. Bob flips. Rita flips. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Rita flips. Omar does nothing. The coin is,A coin is tails up. Bob flips. Paul flips. Rita flips. Omar does nothing. The coin is,tails
+A coin is heads up. Omar flips. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Omar flips. Bob does nothing. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Omar flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,A coin is heads up. Omar flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,tails
+A coin is tails up. Rita flips. Omar flips. Bob does nothing. Hank does nothing. The coin is,A coin is heads up. Rita flips. Omar flips. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Paul flips. Rita does nothing. Omar does nothing. The coin is,A coin is tails up. Hank does nothing. Paul flips. Rita does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Hank flips. Bob does nothing. Paul does nothing. The coin is,A coin is tails up. Rita does nothing. Hank flips. Bob does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Hank flips. Bob does nothing. Omar does nothing. The coin is,A coin is tails up. Rita does nothing. Hank flips. Bob does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Rita flips. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Paul does nothing. Rita flips. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Rita flips. Paul does nothing. The coin is,A coin is tails up. Omar flips. Hank does nothing. Rita flips. Paul does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Rita does nothing. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Rita does nothing. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Bob flips. Hank flips. Rita does nothing. Paul does nothing. The coin is,A coin is tails up. Bob flips. Hank flips. Rita does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Paul flips. Hank does nothing. Rita does nothing. Bob flips. The coin is,A coin is heads up. Paul flips. Hank does nothing. Rita does nothing. Bob flips. The coin is,tails
+A coin is heads up. Paul does nothing. Bob flips. Hank flips. Omar does nothing. The coin is,A coin is tails up. Paul does nothing. Bob flips. Hank flips. Omar does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Omar does nothing. Rita does nothing. Bob flips. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Rita does nothing. Bob flips. The coin is,heads
+A coin is tails up. Paul flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,A coin is heads up. Paul flips. Bob does nothing. Omar does nothing. Rita flips. The coin is,tails
+A coin is heads up. Paul does nothing. Rita flips. Bob flips. Hank flips. The coin is,A coin is tails up. Paul does nothing. Rita flips. Bob flips. Hank flips. The coin is,tails
+A coin is tails up. Rita does nothing. Omar flips. Bob does nothing. Hank flips. The coin is,A coin is heads up. Rita does nothing. Omar flips. Bob does nothing. Hank flips. The coin is,tails
+A coin is tails up. Omar flips. Hank does nothing. Bob does nothing. Paul flips. The coin is,A coin is heads up. Omar flips. Hank does nothing. Bob does nothing. Paul flips. The coin is,tails
+A coin is tails up. Hank flips. Rita does nothing. Omar flips. Bob flips. The coin is,A coin is heads up. Hank flips. Rita does nothing. Omar flips. Bob flips. The coin is,heads
+A coin is tails up. Paul does nothing. Hank does nothing. Rita does nothing. Omar flips. The coin is,A coin is heads up. Paul does nothing. Hank does nothing. Rita does nothing. Omar flips. The coin is,heads
+A coin is heads up. Bob flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,A coin is tails up. Bob flips. Paul does nothing. Rita does nothing. Omar flips. The coin is,heads
+A coin is tails up. Omar does nothing. Hank does nothing. Bob does nothing. Paul flips. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Bob does nothing. Paul flips. The coin is,heads
+A coin is tails up. Omar flips. Rita flips. Bob does nothing. Hank flips. The coin is,A coin is heads up. Omar flips. Rita flips. Bob does nothing. Hank flips. The coin is,heads
+A coin is tails up. Rita does nothing. Paul flips. Omar does nothing. Bob does nothing. The coin is,A coin is heads up. Rita does nothing. Paul flips. Omar does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Bob does nothing. Paul flips. Omar does nothing. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Paul flips. Omar does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Omar does nothing. Bob flips. Hank does nothing. The coin is,A coin is tails up. Paul does nothing. Omar does nothing. Bob flips. Hank does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Rita flips. Paul does nothing. Omar flips. The coin is,A coin is heads up. Hank does nothing. Rita flips. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Paul flips. Omar flips. Rita flips. Hank flips. The coin is,A coin is tails up. Paul flips. Omar flips. Rita flips. Hank flips. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Omar flips. Hank does nothing. The coin is,A coin is tails up. Bob flips. Paul flips. Omar flips. Hank does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,A coin is heads up. Paul does nothing. Omar does nothing. Rita flips. Bob flips. The coin is,tails
+A coin is tails up. Bob does nothing. Omar flips. Paul flips. Hank does nothing. The coin is,A coin is heads up. Bob does nothing. Omar flips. Paul flips. Hank does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Omar flips. Paul flips. Hank flips. Rita does nothing. The coin is,A coin is tails up. Omar flips. Paul flips. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Rita flips. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,A coin is tails up. Rita flips. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Bob flips. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Rita does nothing. Bob flips. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Rita flips. Bob does nothing. Hank flips. Paul flips. The coin is,A coin is tails up. Rita flips. Bob does nothing. Hank flips. Paul flips. The coin is,tails
+A coin is heads up. Omar flips. Rita does nothing. Paul flips. Hank flips. The coin is,A coin is tails up. Omar flips. Rita does nothing. Paul flips. Hank flips. The coin is,tails
+A coin is heads up. Paul flips. Hank flips. Rita flips. Omar flips. The coin is,A coin is tails up. Paul flips. Hank flips. Rita flips. Omar flips. The coin is,heads
+A coin is tails up. Omar flips. Rita flips. Hank does nothing. Bob does nothing. The coin is,A coin is heads up. Omar flips. Rita flips. Hank does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Bob flips. Omar flips. Hank flips. The coin is,A coin is heads up. Rita does nothing. Bob flips. Omar flips. Hank flips. The coin is,heads
+A coin is tails up. Bob does nothing. Hank flips. Omar does nothing. Paul flips. The coin is,A coin is heads up. Bob does nothing. Hank flips. Omar does nothing. Paul flips. The coin is,tails
+A coin is tails up. Paul flips. Rita flips. Omar flips. Hank flips. The coin is,A coin is heads up. Paul flips. Rita flips. Omar flips. Hank flips. The coin is,tails
+A coin is tails up. Bob flips. Paul flips. Rita flips. Omar flips. The coin is,A coin is heads up. Bob flips. Paul flips. Rita flips. Omar flips. The coin is,tails
+A coin is heads up. Hank flips. Rita does nothing. Bob flips. Omar flips. The coin is,A coin is tails up. Hank flips. Rita does nothing. Bob flips. Omar flips. The coin is,tails
+A coin is heads up. Rita flips. Bob does nothing. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Rita flips. Bob does nothing. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Bob flips. Hank flips. Omar flips. The coin is,A coin is tails up. Rita does nothing. Bob flips. Hank flips. Omar flips. The coin is,tails
+A coin is heads up. Paul does nothing. Bob does nothing. Hank does nothing. Rita does nothing. The coin is,A coin is tails up. Paul does nothing. Bob does nothing. Hank does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Paul does nothing. Hank flips. Rita does nothing. Omar flips. The coin is,A coin is tails up. Paul does nothing. Hank flips. Rita does nothing. Omar flips. The coin is,heads
+A coin is tails up. Rita does nothing. Omar does nothing. Paul flips. Hank flips. The coin is,A coin is heads up. Rita does nothing. Omar does nothing. Paul flips. Hank flips. The coin is,tails
+A coin is tails up. Bob flips. Rita flips. Omar flips. Paul flips. The coin is,A coin is heads up. Bob flips. Rita flips. Omar flips. Paul flips. The coin is,tails
+A coin is tails up. Paul flips. Omar flips. Hank flips. Rita flips. The coin is,A coin is heads up. Paul flips. Omar flips. Hank flips. Rita flips. The coin is,tails
+A coin is heads up. Rita does nothing. Bob flips. Omar flips. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Bob flips. Omar flips. Hank does nothing. The coin is,heads
+A coin is heads up. Hank does nothing. Paul does nothing. Bob flips. Omar flips. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Bob flips. Omar flips. The coin is,heads
+A coin is heads up. Paul does nothing. Rita flips. Hank flips. Bob flips. The coin is,A coin is tails up. Paul does nothing. Rita flips. Hank flips. Bob flips. The coin is,tails
+A coin is tails up. Bob flips. Omar does nothing. Hank does nothing. Rita does nothing. The coin is,A coin is heads up. Bob flips. Omar does nothing. Hank does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Paul flips. Bob does nothing. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Paul flips. Bob does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Hank does nothing. Rita flips. Paul does nothing. The coin is,A coin is tails up. Bob does nothing. Hank does nothing. Rita flips. Paul does nothing. The coin is,tails
+A coin is tails up. Bob does nothing. Hank does nothing. Rita does nothing. Omar does nothing. The coin is,A coin is heads up. Bob does nothing. Hank does nothing. Rita does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Bob does nothing. Hank flips. Rita does nothing. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Hank flips. Rita does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Hank does nothing. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar flips. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Paul does nothing. Omar flips. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Paul does nothing. Bob does nothing. Omar does nothing. Rita does nothing. The coin is,A coin is tails up. Paul does nothing. Bob does nothing. Omar does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Paul flips. Rita does nothing. Bob flips. The coin is,A coin is tails up. Omar does nothing. Paul flips. Rita does nothing. Bob flips. The coin is,heads
+A coin is tails up. Omar flips. Bob does nothing. Paul flips. Rita does nothing. The coin is,A coin is heads up. Omar flips. Bob does nothing. Paul flips. Rita does nothing. The coin is,tails
+A coin is heads up. Paul flips. Rita does nothing. Omar flips. Bob flips. The coin is,A coin is tails up. Paul flips. Rita does nothing. Omar flips. Bob flips. The coin is,tails
+A coin is tails up. Rita does nothing. Paul does nothing. Hank flips. Omar does nothing. The coin is,A coin is heads up. Rita does nothing. Paul does nothing. Hank flips. Omar does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Bob does nothing. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Hank does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Rita flips. Bob does nothing. Hank does nothing. Omar flips. The coin is,A coin is heads up. Rita flips. Bob does nothing. Hank does nothing. Omar flips. The coin is,tails
+A coin is heads up. Omar does nothing. Paul does nothing. Hank does nothing. Bob flips. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Hank does nothing. Bob flips. The coin is,tails
+A coin is heads up. Paul flips. Omar flips. Rita does nothing. Bob flips. The coin is,A coin is tails up. Paul flips. Omar flips. Rita does nothing. Bob flips. The coin is,tails
+A coin is tails up. Paul does nothing. Bob does nothing. Hank does nothing. Omar flips. The coin is,A coin is heads up. Paul does nothing. Bob does nothing. Hank does nothing. Omar flips. The coin is,heads
+A coin is tails up. Bob does nothing. Paul does nothing. Hank flips. Rita does nothing. The coin is,A coin is heads up. Bob does nothing. Paul does nothing. Hank flips. Rita does nothing. The coin is,heads
+A coin is tails up. Bob flips. Omar does nothing. Paul flips. Hank flips. The coin is,A coin is heads up. Bob flips. Omar does nothing. Paul flips. Hank flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita does nothing. Bob flips. Hank does nothing. The coin is,A coin is heads up. Paul does nothing. Rita does nothing. Bob flips. Hank does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Bob does nothing. Omar flips. Paul does nothing. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Omar flips. Paul does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Paul does nothing. Bob does nothing. Hank does nothing. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Bob does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Hank does nothing. Omar flips. Bob does nothing. Paul does nothing. The coin is,A coin is tails up. Hank does nothing. Omar flips. Bob does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Bob flips. Paul does nothing. Hank does nothing. The coin is,A coin is heads up. Rita does nothing. Bob flips. Paul does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Bob does nothing. Hank flips. Paul does nothing. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Hank flips. Paul does nothing. The coin is,tails
+A coin is heads up. Paul flips. Rita flips. Hank flips. Bob flips. The coin is,A coin is tails up. Paul flips. Rita flips. Hank flips. Bob flips. The coin is,heads
+A coin is heads up. Bob flips. Paul does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Bob flips. Paul does nothing. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Hank flips. Paul does nothing. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Hank flips. Paul does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Rita flips. Hank flips. Omar does nothing. Bob does nothing. The coin is,A coin is tails up. Rita flips. Hank flips. Omar does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Omar flips. Paul flips. Bob does nothing. The coin is,A coin is tails up. Rita does nothing. Omar flips. Paul flips. Bob does nothing. The coin is,heads
+A coin is tails up. Hank flips. Paul flips. Bob does nothing. Rita does nothing. The coin is,A coin is heads up. Hank flips. Paul flips. Bob does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Rita flips. Omar flips. Bob flips. Hank flips. The coin is,A coin is tails up. Rita flips. Omar flips. Bob flips. Hank flips. The coin is,heads
+A coin is heads up. Paul does nothing. Hank does nothing. Bob does nothing. Omar does nothing. The coin is,A coin is tails up. Paul does nothing. Hank does nothing. Bob does nothing. Omar does nothing. The coin is,heads
+A coin is heads up. Paul flips. Bob flips. Omar flips. Rita does nothing. The coin is,A coin is tails up. Paul flips. Bob flips. Omar flips. Rita does nothing. The coin is,tails
+A coin is heads up. Rita flips. Bob flips. Paul flips. Omar flips. The coin is,A coin is tails up. Rita flips. Bob flips. Paul flips. Omar flips. The coin is,heads
+A coin is heads up. Hank flips. Omar does nothing. Bob flips. Rita flips. The coin is,A coin is tails up. Hank flips. Omar does nothing. Bob flips. Rita flips. The coin is,tails
+A coin is heads up. Bob does nothing. Hank flips. Omar does nothing. Paul flips. The coin is,A coin is tails up. Bob does nothing. Hank flips. Omar does nothing. Paul flips. The coin is,heads
+A coin is tails up. Omar does nothing. Rita flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Rita flips. Paul does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Omar flips. Hank flips. Paul flips. The coin is,A coin is tails up. Bob does nothing. Omar flips. Hank flips. Paul flips. The coin is,tails
+A coin is tails up. Bob flips. Paul flips. Omar does nothing. Hank does nothing. The coin is,A coin is heads up. Bob flips. Paul flips. Omar does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Omar flips. Bob does nothing. Paul does nothing. Hank does nothing. The coin is,A coin is heads up. Omar flips. Bob does nothing. Paul does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar flips. Bob does nothing. Hank does nothing. Rita does nothing. The coin is,A coin is tails up. Omar flips. Bob does nothing. Hank does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Bob flips. Rita flips. Hank does nothing. The coin is,A coin is heads up. Paul does nothing. Bob flips. Rita flips. Hank does nothing. The coin is,tails
+A coin is heads up. Hank flips. Rita does nothing. Bob does nothing. Omar does nothing. The coin is,A coin is tails up. Hank flips. Rita does nothing. Bob does nothing. Omar does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Omar does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Omar does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Bob flips. Omar does nothing. Paul does nothing. Rita does nothing. The coin is,A coin is heads up. Bob flips. Omar does nothing. Paul does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Paul flips. Rita flips. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Paul flips. Rita flips. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Paul flips. Rita does nothing. Bob does nothing. Omar does nothing. The coin is,A coin is heads up. Paul flips. Rita does nothing. Bob does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Rita does nothing. Bob does nothing. Paul flips. The coin is,A coin is heads up. Omar does nothing. Rita does nothing. Bob does nothing. Paul flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Bob flips. Omar does nothing. The coin is,A coin is heads up. Paul does nothing. Rita flips. Bob flips. Omar does nothing. The coin is,tails
+A coin is heads up. Rita flips. Omar flips. Paul does nothing. Hank does nothing. The coin is,A coin is tails up. Rita flips. Omar flips. Paul does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Hank flips. Rita flips. Paul does nothing. The coin is,A coin is tails up. Omar does nothing. Hank flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Omar flips. Bob flips. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Omar flips. Bob flips. Hank does nothing. The coin is,heads
+A coin is heads up. Paul flips. Omar does nothing. Bob does nothing. Rita does nothing. The coin is,A coin is tails up. Paul flips. Omar does nothing. Bob does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Rita does nothing. Paul flips. Bob flips. The coin is,A coin is heads up. Hank does nothing. Rita does nothing. Paul flips. Bob flips. The coin is,tails
+A coin is tails up. Omar flips. Paul does nothing. Bob flips. Hank flips. The coin is,A coin is heads up. Omar flips. Paul does nothing. Bob flips. Hank flips. The coin is,heads
+A coin is heads up. Omar flips. Rita does nothing. Hank does nothing. Paul flips. The coin is,A coin is tails up. Omar flips. Rita does nothing. Hank does nothing. Paul flips. The coin is,heads
+A coin is tails up. Omar does nothing. Bob flips. Rita flips. Paul does nothing. The coin is,A coin is heads up. Omar does nothing. Bob flips. Rita flips. Paul does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Hank flips. Omar flips. Bob flips. The coin is,A coin is heads up. Paul does nothing. Hank flips. Omar flips. Bob flips. The coin is,heads
+A coin is heads up. Rita flips. Bob flips. Paul does nothing. Hank flips. The coin is,A coin is tails up. Rita flips. Bob flips. Paul does nothing. Hank flips. The coin is,tails
+A coin is heads up. Hank does nothing. Rita flips. Paul flips. Bob does nothing. The coin is,A coin is tails up. Hank does nothing. Rita flips. Paul flips. Bob does nothing. The coin is,heads
+A coin is heads up. Bob flips. Omar does nothing. Rita flips. Paul flips. The coin is,A coin is tails up. Bob flips. Omar does nothing. Rita flips. Paul flips. The coin is,tails
+A coin is heads up. Rita flips. Bob flips. Omar flips. Hank does nothing. The coin is,A coin is tails up. Rita flips. Bob flips. Omar flips. Hank does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Omar flips. Bob flips. Paul flips. The coin is,A coin is tails up. Hank does nothing. Omar flips. Bob flips. Paul flips. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,A coin is tails up. Omar flips. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar does nothing. Hank flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Omar does nothing. Hank flips. Rita flips. The coin is,tails
+A coin is heads up. Hank flips. Omar flips. Paul flips. Bob does nothing. The coin is,A coin is tails up. Hank flips. Omar flips. Paul flips. Bob does nothing. The coin is,tails
+A coin is tails up. Bob flips. Hank flips. Rita flips. Paul flips. The coin is,A coin is heads up. Bob flips. Hank flips. Rita flips. Paul flips. The coin is,tails
+A coin is tails up. Hank flips. Bob does nothing. Rita flips. Omar does nothing. The coin is,A coin is heads up. Hank flips. Bob does nothing. Rita flips. Omar does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Bob flips. Rita flips. Omar flips. The coin is,A coin is tails up. Paul does nothing. Bob flips. Rita flips. Omar flips. The coin is,tails
+A coin is heads up. Rita flips. Paul does nothing. Bob flips. Hank does nothing. The coin is,A coin is tails up. Rita flips. Paul does nothing. Bob flips. Hank does nothing. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Hank flips. Omar flips. The coin is,A coin is tails up. Bob flips. Paul flips. Hank flips. Omar flips. The coin is,heads
+A coin is tails up. Hank flips. Rita does nothing. Paul flips. Omar does nothing. The coin is,A coin is heads up. Hank flips. Rita does nothing. Paul flips. Omar does nothing. The coin is,tails
+A coin is tails up. Bob flips. Rita flips. Omar flips. Hank does nothing. The coin is,A coin is heads up. Bob flips. Rita flips. Omar flips. Hank does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Bob does nothing. Omar flips. Rita flips. The coin is,A coin is heads up. Hank does nothing. Bob does nothing. Omar flips. Rita flips. The coin is,tails
+A coin is tails up. Omar does nothing. Paul flips. Rita flips. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Paul flips. Rita flips. Bob does nothing. The coin is,tails
+A coin is tails up. Rita flips. Bob flips. Hank does nothing. Omar flips. The coin is,A coin is heads up. Rita flips. Bob flips. Hank does nothing. Omar flips. The coin is,heads
+A coin is tails up. Hank flips. Omar flips. Rita does nothing. Bob does nothing. The coin is,A coin is heads up. Hank flips. Omar flips. Rita does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Paul flips. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,A coin is tails up. Paul flips. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Bob flips. Omar does nothing. Hank does nothing. Rita flips. The coin is,A coin is heads up. Bob flips. Omar does nothing. Hank does nothing. Rita flips. The coin is,tails
+A coin is heads up. Paul does nothing. Hank does nothing. Omar flips. Bob flips. The coin is,A coin is tails up. Paul does nothing. Hank does nothing. Omar flips. Bob flips. The coin is,heads
+A coin is heads up. Hank does nothing. Paul does nothing. Omar flips. Rita does nothing. The coin is,A coin is tails up. Hank does nothing. Paul does nothing. Omar flips. Rita does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Omar flips. Bob does nothing. Rita flips. The coin is,A coin is tails up. Paul does nothing. Omar flips. Bob does nothing. Rita flips. The coin is,heads
+A coin is tails up. Bob does nothing. Hank does nothing. Rita flips. Omar does nothing. The coin is,A coin is heads up. Bob does nothing. Hank does nothing. Rita flips. Omar does nothing. The coin is,heads
+A coin is tails up. Rita flips. Paul does nothing. Bob flips. Omar does nothing. The coin is,A coin is heads up. Rita flips. Paul does nothing. Bob flips. Omar does nothing. The coin is,tails
+A coin is tails up. Hank does nothing. Bob flips. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Hank does nothing. Bob flips. Omar does nothing. Rita does nothing. The coin is,heads
+A coin is tails up. Rita flips. Bob does nothing. Paul flips. Hank does nothing. The coin is,A coin is heads up. Rita flips. Bob does nothing. Paul flips. Hank does nothing. The coin is,tails
+A coin is tails up. Omar flips. Bob flips. Rita flips. Paul does nothing. The coin is,A coin is heads up. Omar flips. Bob flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Paul does nothing. Bob flips. Omar flips. The coin is,A coin is heads up. Hank does nothing. Paul does nothing. Bob flips. Omar flips. The coin is,tails
+A coin is heads up. Paul does nothing. Omar does nothing. Hank flips. Bob does nothing. The coin is,A coin is tails up. Paul does nothing. Omar does nothing. Hank flips. Bob does nothing. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Rita flips. Bob flips. The coin is,A coin is tails up. Omar flips. Hank does nothing. Rita flips. Bob flips. The coin is,tails
+A coin is tails up. Omar flips. Rita flips. Hank flips. Paul does nothing. The coin is,A coin is heads up. Omar flips. Rita flips. Hank flips. Paul does nothing. The coin is,heads
+A coin is heads up. Hank flips. Bob does nothing. Paul flips. Rita flips. The coin is,A coin is tails up. Hank flips. Bob does nothing. Paul flips. Rita flips. The coin is,tails
+A coin is heads up. Hank does nothing. Omar flips. Rita flips. Paul does nothing. The coin is,A coin is tails up. Hank does nothing. Omar flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is heads up. Paul flips. Omar flips. Rita flips. Hank does nothing. The coin is,A coin is tails up. Paul flips. Omar flips. Rita flips. Hank does nothing. The coin is,tails
+A coin is tails up. Omar does nothing. Hank does nothing. Paul flips. Rita does nothing. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Paul flips. Rita does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Hank flips. Paul does nothing. Bob does nothing. The coin is,A coin is tails up. Rita does nothing. Hank flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Hank flips. Bob flips. Rita flips. Paul does nothing. The coin is,A coin is heads up. Hank flips. Bob flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is heads up. Hank does nothing. Bob flips. Paul flips. Omar flips. The coin is,A coin is tails up. Hank does nothing. Bob flips. Paul flips. Omar flips. The coin is,tails
+A coin is tails up. Bob flips. Hank does nothing. Rita flips. Paul flips. The coin is,A coin is heads up. Bob flips. Hank does nothing. Rita flips. Paul flips. The coin is,heads
+A coin is heads up. Rita does nothing. Hank flips. Paul flips. Bob flips. The coin is,A coin is tails up. Rita does nothing. Hank flips. Paul flips. Bob flips. The coin is,tails
+A coin is tails up. Rita flips. Omar does nothing. Paul flips. Bob flips. The coin is,A coin is heads up. Rita flips. Omar does nothing. Paul flips. Bob flips. The coin is,heads
+A coin is heads up. Paul flips. Omar does nothing. Hank flips. Bob does nothing. The coin is,A coin is tails up. Paul flips. Omar does nothing. Hank flips. Bob does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Hank flips. Rita flips. Bob flips. The coin is,A coin is heads up. Paul does nothing. Hank flips. Rita flips. Bob flips. The coin is,heads
+A coin is heads up. Omar does nothing. Bob flips. Paul flips. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob flips. Paul flips. Hank flips. The coin is,tails
+A coin is tails up. Hank flips. Omar does nothing. Paul flips. Bob flips. The coin is,A coin is heads up. Hank flips. Omar does nothing. Paul flips. Bob flips. The coin is,heads
+A coin is tails up. Bob does nothing. Omar does nothing. Hank flips. Rita flips. The coin is,A coin is heads up. Bob does nothing. Omar does nothing. Hank flips. Rita flips. The coin is,tails
+A coin is tails up. Rita does nothing. Paul does nothing. Bob flips. Hank does nothing. The coin is,A coin is heads up. Rita does nothing. Paul does nothing. Bob flips. Hank does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Omar flips. Paul does nothing. Hank flips. The coin is,A coin is heads up. Bob does nothing. Omar flips. Paul does nothing. Hank flips. The coin is,tails
+A coin is tails up. Rita flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,A coin is heads up. Rita flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Rita flips. Paul flips. The coin is,A coin is tails up. Omar flips. Hank flips. Rita flips. Paul flips. The coin is,heads
+A coin is tails up. Hank flips. Paul flips. Bob flips. Omar flips. The coin is,A coin is heads up. Hank flips. Paul flips. Bob flips. Omar flips. The coin is,tails
+A coin is tails up. Hank does nothing. Omar does nothing. Bob flips. Rita flips. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Bob flips. Rita flips. The coin is,tails
+A coin is heads up. Omar flips. Paul flips. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Omar flips. Paul flips. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Rita flips. Hank flips. Bob does nothing. Omar does nothing. The coin is,A coin is tails up. Rita flips. Hank flips. Bob does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Bob does nothing. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Hank does nothing. Bob does nothing. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Bob flips. Hank does nothing. Rita flips. Paul does nothing. The coin is,A coin is tails up. Bob flips. Hank does nothing. Rita flips. Paul does nothing. The coin is,heads
+A coin is heads up. Bob flips. Rita does nothing. Hank flips. Paul flips. The coin is,A coin is tails up. Bob flips. Rita does nothing. Hank flips. Paul flips. The coin is,tails
+A coin is tails up. Hank does nothing. Omar does nothing. Rita flips. Bob does nothing. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Rita flips. Bob does nothing. The coin is,heads
+A coin is heads up. Omar does nothing. Bob does nothing. Rita flips. Hank flips. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Rita flips. Hank flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Bob does nothing. Omar does nothing. The coin is,A coin is heads up. Paul does nothing. Rita flips. Bob does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Omar flips. Bob flips. Rita flips. Paul flips. The coin is,A coin is heads up. Omar flips. Bob flips. Rita flips. Paul flips. The coin is,tails
+A coin is tails up. Bob does nothing. Rita does nothing. Paul flips. Hank flips. The coin is,A coin is heads up. Bob does nothing. Rita does nothing. Paul flips. Hank flips. The coin is,tails
+A coin is heads up. Bob does nothing. Hank flips. Omar flips. Rita flips. The coin is,A coin is tails up. Bob does nothing. Hank flips. Omar flips. Rita flips. The coin is,tails
+A coin is tails up. Paul does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,A coin is heads up. Paul does nothing. Rita flips. Omar flips. Hank does nothing. The coin is,tails
+A coin is heads up. Hank flips. Paul flips. Omar flips. Rita does nothing. The coin is,A coin is tails up. Hank flips. Paul flips. Omar flips. Rita does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Rita flips. Paul does nothing. Bob flips. The coin is,A coin is tails up. Hank does nothing. Rita flips. Paul does nothing. Bob flips. The coin is,heads
+A coin is tails up. Paul does nothing. Bob does nothing. Hank flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Bob does nothing. Hank flips. Rita flips. The coin is,tails
+A coin is heads up. Rita flips. Hank does nothing. Bob does nothing. Omar flips. The coin is,A coin is tails up. Rita flips. Hank does nothing. Bob does nothing. Omar flips. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Hank does nothing. Omar does nothing. The coin is,A coin is tails up. Bob flips. Paul flips. Hank does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Omar flips. Hank flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Omar flips. Hank flips. Rita flips. The coin is,heads
+A coin is heads up. Bob flips. Hank does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Bob flips. Hank does nothing. Omar does nothing. Rita flips. The coin is,heads
+A coin is heads up. Omar flips. Rita does nothing. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Omar flips. Rita does nothing. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Omar flips. Hank does nothing. Paul flips. Rita does nothing. The coin is,A coin is heads up. Omar flips. Hank does nothing. Paul flips. Rita does nothing. The coin is,tails
+A coin is heads up. Rita does nothing. Omar does nothing. Paul flips. Hank does nothing. The coin is,A coin is tails up. Rita does nothing. Omar does nothing. Paul flips. Hank does nothing. The coin is,tails
+A coin is tails up. Bob does nothing. Paul does nothing. Rita flips. Omar does nothing. The coin is,A coin is heads up. Bob does nothing. Paul does nothing. Rita flips. Omar does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Bob flips. Omar does nothing. Hank flips. The coin is,A coin is tails up. Rita does nothing. Bob flips. Omar does nothing. Hank flips. The coin is,heads
+A coin is tails up. Paul does nothing. Omar flips. Hank flips. Rita does nothing. The coin is,A coin is heads up. Paul does nothing. Omar flips. Hank flips. Rita does nothing. The coin is,tails
+A coin is heads up. Hank flips. Rita flips. Bob flips. Omar does nothing. The coin is,A coin is tails up. Hank flips. Rita flips. Bob flips. Omar does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Hank does nothing. Omar flips. Paul flips. The coin is,A coin is tails up. Bob does nothing. Hank does nothing. Omar flips. Paul flips. The coin is,heads
+A coin is tails up. Paul flips. Omar does nothing. Rita flips. Bob flips. The coin is,A coin is heads up. Paul flips. Omar does nothing. Rita flips. Bob flips. The coin is,heads
+A coin is heads up. Omar does nothing. Rita flips. Hank flips. Paul does nothing. The coin is,A coin is tails up. Omar does nothing. Rita flips. Hank flips. Paul does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Hank flips. Omar does nothing. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Hank flips. Omar does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Hank flips. Paul does nothing. Omar flips. Rita flips. The coin is,A coin is heads up. Hank flips. Paul does nothing. Omar flips. Rita flips. The coin is,heads
+A coin is tails up. Bob flips. Rita does nothing. Hank flips. Omar does nothing. The coin is,A coin is heads up. Bob flips. Rita does nothing. Hank flips. Omar does nothing. The coin is,tails
+A coin is tails up. Rita flips. Omar flips. Paul flips. Hank flips. The coin is,A coin is heads up. Rita flips. Omar flips. Paul flips. Hank flips. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Bob does nothing. Rita does nothing. The coin is,A coin is tails up. Omar flips. Hank does nothing. Bob does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Bob flips. Rita flips. Hank does nothing. Omar does nothing. The coin is,A coin is tails up. Bob flips. Rita flips. Hank does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Hank flips. Omar does nothing. Bob does nothing. Paul does nothing. The coin is,A coin is heads up. Hank flips. Omar does nothing. Bob does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Rita flips. Omar flips. The coin is,A coin is tails up. Bob flips. Paul flips. Rita flips. Omar flips. The coin is,heads
+A coin is heads up. Bob does nothing. Hank flips. Omar flips. Rita does nothing. The coin is,A coin is tails up. Bob does nothing. Hank flips. Omar flips. Rita does nothing. The coin is,heads
+A coin is heads up. Paul flips. Omar does nothing. Rita flips. Hank flips. The coin is,A coin is tails up. Paul flips. Omar does nothing. Rita flips. Hank flips. The coin is,tails
+A coin is tails up. Bob flips. Paul flips. Omar flips. Rita does nothing. The coin is,A coin is heads up. Bob flips. Paul flips. Omar flips. Rita does nothing. The coin is,heads
+A coin is tails up. Hank does nothing. Paul flips. Omar does nothing. Bob flips. The coin is,A coin is heads up. Hank does nothing. Paul flips. Omar does nothing. Bob flips. The coin is,tails
+A coin is heads up. Omar does nothing. Bob does nothing. Hank flips. Rita flips. The coin is,A coin is tails up. Omar does nothing. Bob does nothing. Hank flips. Rita flips. The coin is,heads
+A coin is tails up. Hank does nothing. Bob does nothing. Rita does nothing. Omar flips. The coin is,A coin is heads up. Hank does nothing. Bob does nothing. Rita does nothing. Omar flips. The coin is,heads
+A coin is heads up. Hank flips. Bob does nothing. Paul flips. Omar flips. The coin is,A coin is tails up. Hank flips. Bob does nothing. Paul flips. Omar flips. The coin is,tails
+A coin is tails up. Bob flips. Rita flips. Paul does nothing. Hank does nothing. The coin is,A coin is heads up. Bob flips. Rita flips. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Hank flips. Omar does nothing. Rita does nothing. Bob flips. The coin is,A coin is heads up. Hank flips. Omar does nothing. Rita does nothing. Bob flips. The coin is,tails
+A coin is heads up. Rita does nothing. Hank does nothing. Paul does nothing. Bob does nothing. The coin is,A coin is tails up. Rita does nothing. Hank does nothing. Paul does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Hank flips. Omar does nothing. Bob flips. The coin is,A coin is tails up. Rita does nothing. Hank flips. Omar does nothing. Bob flips. The coin is,heads
+A coin is tails up. Bob flips. Paul does nothing. Omar does nothing. Rita flips. The coin is,A coin is heads up. Bob flips. Paul does nothing. Omar does nothing. Rita flips. The coin is,tails
+A coin is heads up. Paul flips. Hank flips. Bob flips. Omar does nothing. The coin is,A coin is tails up. Paul flips. Hank flips. Bob flips. Omar does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Omar does nothing. Bob flips. Rita flips. The coin is,A coin is heads up. Paul does nothing. Omar does nothing. Bob flips. Rita flips. The coin is,tails
+A coin is heads up. Rita does nothing. Bob flips. Hank flips. Paul flips. The coin is,A coin is tails up. Rita does nothing. Bob flips. Hank flips. Paul flips. The coin is,tails
+A coin is heads up. Hank flips. Rita does nothing. Omar does nothing. Bob does nothing. The coin is,A coin is tails up. Hank flips. Rita does nothing. Omar does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Paul flips. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Omar does nothing. Paul flips. Rita does nothing. Hank does nothing. The coin is,tails
+A coin is tails up. Hank flips. Rita does nothing. Bob flips. Paul flips. The coin is,A coin is heads up. Hank flips. Rita does nothing. Bob flips. Paul flips. The coin is,heads
+A coin is tails up. Paul does nothing. Rita flips. Omar does nothing. Hank does nothing. The coin is,A coin is heads up. Paul does nothing. Rita flips. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,A coin is heads up. Omar does nothing. Hank does nothing. Rita does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Bob flips. Rita flips. Paul flips. Hank flips. The coin is,A coin is heads up. Bob flips. Rita flips. Paul flips. Hank flips. The coin is,tails
+A coin is heads up. Bob flips. Hank does nothing. Rita flips. Omar flips. The coin is,A coin is tails up. Bob flips. Hank does nothing. Rita flips. Omar flips. The coin is,tails
+A coin is tails up. Hank does nothing. Omar does nothing. Bob does nothing. Paul does nothing. The coin is,A coin is heads up. Hank does nothing. Omar does nothing. Bob does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Paul flips. Rita does nothing. Hank flips. Omar flips. The coin is,A coin is heads up. Paul flips. Rita does nothing. Hank flips. Omar flips. The coin is,heads
+A coin is tails up. Paul does nothing. Omar flips. Rita does nothing. Bob does nothing. The coin is,A coin is heads up. Paul does nothing. Omar flips. Rita does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Hank does nothing. Paul flips. Omar flips. The coin is,A coin is tails up. Bob does nothing. Hank does nothing. Paul flips. Omar flips. The coin is,heads
+A coin is heads up. Rita does nothing. Hank does nothing. Omar does nothing. Bob flips. The coin is,A coin is tails up. Rita does nothing. Hank does nothing. Omar does nothing. Bob flips. The coin is,tails
+A coin is heads up. Omar flips. Bob flips. Paul flips. Rita flips. The coin is,A coin is tails up. Omar flips. Bob flips. Paul flips. Rita flips. The coin is,heads
+A coin is tails up. Rita does nothing. Bob flips. Paul does nothing. Hank flips. The coin is,A coin is heads up. Rita does nothing. Bob flips. Paul does nothing. Hank flips. The coin is,tails
+A coin is tails up. Rita flips. Omar flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Rita flips. Omar flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is tails up. Bob flips. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,A coin is heads up. Bob flips. Hank does nothing. Omar does nothing. Rita does nothing. The coin is,heads
+A coin is heads up. Bob does nothing. Paul flips. Rita flips. Omar does nothing. The coin is,A coin is tails up. Bob does nothing. Paul flips. Rita flips. Omar does nothing. The coin is,heads
+A coin is tails up. Rita flips. Bob flips. Paul does nothing. Hank does nothing. The coin is,A coin is heads up. Rita flips. Bob flips. Paul does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Omar flips. Hank flips. Bob flips. Rita flips. The coin is,A coin is tails up. Omar flips. Hank flips. Bob flips. Rita flips. The coin is,heads
+A coin is heads up. Hank flips. Bob does nothing. Paul flips. Omar does nothing. The coin is,A coin is tails up. Hank flips. Bob does nothing. Paul flips. Omar does nothing. The coin is,heads
+A coin is heads up. Paul does nothing. Bob does nothing. Omar does nothing. Hank flips. The coin is,A coin is tails up. Paul does nothing. Bob does nothing. Omar does nothing. Hank flips. The coin is,tails
+A coin is heads up. Rita does nothing. Bob does nothing. Paul does nothing. Omar flips. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Omar flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,A coin is tails up. Omar flips. Hank does nothing. Bob flips. Paul does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Omar does nothing. Paul flips. Rita flips. The coin is,A coin is heads up. Bob does nothing. Omar does nothing. Paul flips. Rita flips. The coin is,tails
+A coin is tails up. Hank flips. Omar flips. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Hank flips. Omar flips. Rita does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Hank flips. Paul does nothing. Rita flips. Omar flips. The coin is,A coin is heads up. Hank flips. Paul does nothing. Rita flips. Omar flips. The coin is,heads
+A coin is heads up. Omar flips. Bob flips. Paul flips. Hank does nothing. The coin is,A coin is tails up. Omar flips. Bob flips. Paul flips. Hank does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Paul flips. Hank does nothing. Omar flips. The coin is,A coin is tails up. Bob does nothing. Paul flips. Hank does nothing. Omar flips. The coin is,heads
+A coin is tails up. Bob does nothing. Rita does nothing. Hank flips. Paul does nothing. The coin is,A coin is heads up. Bob does nothing. Rita does nothing. Hank flips. Paul does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Paul flips. Omar flips. Bob flips. The coin is,A coin is tails up. Rita does nothing. Paul flips. Omar flips. Bob flips. The coin is,tails
+A coin is heads up. Hank does nothing. Bob flips. Paul flips. Rita flips. The coin is,A coin is tails up. Hank does nothing. Bob flips. Paul flips. Rita flips. The coin is,tails
+A coin is tails up. Omar does nothing. Hank flips. Rita does nothing. Paul does nothing. The coin is,A coin is heads up. Omar does nothing. Hank flips. Rita does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Hank flips. Rita flips. Bob does nothing. The coin is,A coin is heads up. Paul does nothing. Hank flips. Rita flips. Bob does nothing. The coin is,tails
+A coin is heads up. Hank flips. Omar flips. Paul flips. Rita flips. The coin is,A coin is tails up. Hank flips. Omar flips. Paul flips. Rita flips. The coin is,heads
+A coin is heads up. Rita flips. Hank does nothing. Bob does nothing. Omar does nothing. The coin is,A coin is tails up. Rita flips. Hank does nothing. Bob does nothing. Omar does nothing. The coin is,tails
+A coin is tails up. Bob flips. Hank does nothing. Rita does nothing. Omar does nothing. The coin is,A coin is heads up. Bob flips. Hank does nothing. Rita does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Omar flips. Rita flips. Bob flips. Paul flips. The coin is,A coin is heads up. Omar flips. Rita flips. Bob flips. Paul flips. The coin is,tails
+A coin is tails up. Omar flips. Hank flips. Bob does nothing. Rita does nothing. The coin is,A coin is heads up. Omar flips. Hank flips. Bob does nothing. Rita does nothing. The coin is,tails
+A coin is heads up. Hank does nothing. Bob does nothing. Rita does nothing. Omar flips. The coin is,A coin is tails up. Hank does nothing. Bob does nothing. Rita does nothing. Omar flips. The coin is,tails
+A coin is heads up. Omar does nothing. Rita flips. Hank flips. Bob flips. The coin is,A coin is tails up. Omar does nothing. Rita flips. Hank flips. Bob flips. The coin is,tails
+A coin is tails up. Rita does nothing. Omar flips. Hank does nothing. Bob flips. The coin is,A coin is heads up. Rita does nothing. Omar flips. Hank does nothing. Bob flips. The coin is,tails
+A coin is heads up. Hank does nothing. Rita does nothing. Paul does nothing. Omar flips. The coin is,A coin is tails up. Hank does nothing. Rita does nothing. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Omar does nothing. Rita flips. Bob flips. Paul flips. The coin is,A coin is tails up. Omar does nothing. Rita flips. Bob flips. Paul flips. The coin is,tails
+A coin is tails up. Bob does nothing. Omar flips. Hank does nothing. Rita flips. The coin is,A coin is heads up. Bob does nothing. Omar flips. Hank does nothing. Rita flips. The coin is,tails
+A coin is heads up. Rita does nothing. Hank does nothing. Bob flips. Paul flips. The coin is,A coin is tails up. Rita does nothing. Hank does nothing. Bob flips. Paul flips. The coin is,heads
+A coin is heads up. Bob does nothing. Paul does nothing. Rita flips. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Rita flips. Hank does nothing. The coin is,tails
+A coin is tails up. Paul does nothing. Omar flips. Rita flips. Bob flips. The coin is,A coin is heads up. Paul does nothing. Omar flips. Rita flips. Bob flips. The coin is,heads
+A coin is tails up. Rita does nothing. Bob flips. Paul flips. Omar does nothing. The coin is,A coin is heads up. Rita does nothing. Bob flips. Paul flips. Omar does nothing. The coin is,tails
+A coin is tails up. Rita does nothing. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,A coin is heads up. Rita does nothing. Paul does nothing. Hank does nothing. Omar does nothing. The coin is,tails
+A coin is tails up. Hank flips. Rita flips. Bob flips. Omar does nothing. The coin is,A coin is heads up. Hank flips. Rita flips. Bob flips. Omar does nothing. The coin is,heads
+A coin is tails up. Bob flips. Hank flips. Omar does nothing. Paul flips. The coin is,A coin is heads up. Bob flips. Hank flips. Omar does nothing. Paul flips. The coin is,heads
+A coin is heads up. Bob flips. Paul does nothing. Omar does nothing. Rita flips. The coin is,A coin is tails up. Bob flips. Paul does nothing. Omar does nothing. Rita flips. The coin is,heads
+A coin is tails up. Rita flips. Bob does nothing. Paul does nothing. Omar flips. The coin is,A coin is heads up. Rita flips. Bob does nothing. Paul does nothing. Omar flips. The coin is,tails
+A coin is heads up. Hank does nothing. Omar flips. Paul does nothing. Rita does nothing. The coin is,A coin is tails up. Hank does nothing. Omar flips. Paul does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Paul flips. Hank does nothing. Omar flips. Rita flips. The coin is,A coin is heads up. Paul flips. Hank does nothing. Omar flips. Rita flips. The coin is,heads
+A coin is tails up. Hank does nothing. Rita flips. Bob does nothing. Omar flips. The coin is,A coin is heads up. Hank does nothing. Rita flips. Bob does nothing. Omar flips. The coin is,tails
+A coin is tails up. Omar flips. Paul does nothing. Rita does nothing. Bob does nothing. The coin is,A coin is heads up. Omar flips. Paul does nothing. Rita does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Rita does nothing. Bob does nothing. Omar does nothing. Paul flips. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Omar does nothing. Paul flips. The coin is,tails
+A coin is heads up. Hank does nothing. Omar flips. Bob flips. Rita flips. The coin is,A coin is tails up. Hank does nothing. Omar flips. Bob flips. Rita flips. The coin is,tails
+A coin is heads up. Hank does nothing. Bob flips. Rita flips. Paul flips. The coin is,A coin is tails up. Hank does nothing. Bob flips. Rita flips. Paul flips. The coin is,tails
+A coin is tails up. Rita does nothing. Hank does nothing. Paul flips. Bob does nothing. The coin is,A coin is heads up. Rita does nothing. Hank does nothing. Paul flips. Bob does nothing. The coin is,heads
+A coin is tails up. Omar flips. Hank flips. Bob does nothing. Rita flips. The coin is,A coin is heads up. Omar flips. Hank flips. Bob does nothing. Rita flips. The coin is,heads
+A coin is heads up. Bob flips. Rita flips. Omar does nothing. Hank flips. The coin is,A coin is tails up. Bob flips. Rita flips. Omar does nothing. Hank flips. The coin is,tails
+A coin is tails up. Bob flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,A coin is heads up. Bob flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Omar flips. Bob does nothing. Rita flips. Paul does nothing. The coin is,A coin is heads up. Omar flips. Bob does nothing. Rita flips. Paul does nothing. The coin is,tails
+A coin is tails up. Omar flips. Rita flips. Paul does nothing. Bob does nothing. The coin is,A coin is heads up. Omar flips. Rita flips. Paul does nothing. Bob does nothing. The coin is,tails
+A coin is heads up. Omar does nothing. Paul does nothing. Rita does nothing. Hank flips. The coin is,A coin is tails up. Omar does nothing. Paul does nothing. Rita does nothing. Hank flips. The coin is,tails
+A coin is heads up. Hank flips. Rita flips. Omar does nothing. Paul does nothing. The coin is,A coin is tails up. Hank flips. Rita flips. Omar does nothing. Paul does nothing. The coin is,heads
+A coin is heads up. Omar flips. Paul flips. Hank does nothing. Rita flips. The coin is,A coin is tails up. Omar flips. Paul flips. Hank does nothing. Rita flips. The coin is,tails
+A coin is heads up. Paul does nothing. Bob does nothing. Rita flips. Omar flips. The coin is,A coin is tails up. Paul does nothing. Bob does nothing. Rita flips. Omar flips. The coin is,heads
+A coin is tails up. Rita flips. Bob flips. Paul does nothing. Omar flips. The coin is,A coin is heads up. Rita flips. Bob flips. Paul does nothing. Omar flips. The coin is,heads
+A coin is heads up. Hank flips. Paul flips. Bob flips. Omar does nothing. The coin is,A coin is tails up. Hank flips. Paul flips. Bob flips. Omar does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Rita does nothing. Bob does nothing. Hank flips. The coin is,A coin is tails up. Paul does nothing. Rita does nothing. Bob does nothing. Hank flips. The coin is,tails
+A coin is tails up. Bob flips. Hank flips. Rita flips. Paul does nothing. The coin is,A coin is heads up. Bob flips. Hank flips. Rita flips. Paul does nothing. The coin is,heads
+A coin is heads up. Paul flips. Bob does nothing. Rita flips. Hank flips. The coin is,A coin is tails up. Paul flips. Bob does nothing. Rita flips. Hank flips. The coin is,tails
+A coin is heads up. Rita does nothing. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,A coin is tails up. Rita does nothing. Bob does nothing. Paul does nothing. Omar does nothing. The coin is,heads
+A coin is tails up. Bob does nothing. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is heads up. Bob does nothing. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,tails
+A coin is heads up. Hank flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,A coin is tails up. Hank flips. Rita does nothing. Omar does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Paul does nothing. Omar does nothing. Hank does nothing. Bob does nothing. The coin is,A coin is tails up. Paul does nothing. Omar does nothing. Hank does nothing. Bob does nothing. The coin is,heads
+A coin is heads up. Bob flips. Rita flips. Hank flips. Paul flips. The coin is,A coin is tails up. Bob flips. Rita flips. Hank flips. Paul flips. The coin is,heads
+A coin is tails up. Omar flips. Paul flips. Hank flips. Bob does nothing. The coin is,A coin is heads up. Omar flips. Paul flips. Hank flips. Bob does nothing. The coin is,heads
+A coin is heads up. Rita flips. Omar does nothing. Hank does nothing. Paul flips. The coin is,A coin is tails up. Rita flips. Omar does nothing. Hank does nothing. Paul flips. The coin is,heads
+A coin is tails up. Rita does nothing. Hank does nothing. Omar does nothing. Paul does nothing. The coin is,A coin is heads up. Rita does nothing. Hank does nothing. Omar does nothing. Paul does nothing. The coin is,tails
+A coin is tails up. Hank flips. Paul flips. Bob flips. Rita does nothing. The coin is,A coin is heads up. Hank flips. Paul flips. Bob flips. Rita does nothing. The coin is,heads
+A coin is tails up. Rita does nothing. Paul flips. Omar flips. Bob does nothing. The coin is,A coin is heads up. Rita does nothing. Paul flips. Omar flips. Bob does nothing. The coin is,tails
+A coin is heads up. Rita flips. Bob does nothing. Omar does nothing. Paul does nothing. The coin is,A coin is tails up. Rita flips. Bob does nothing. Omar does nothing. Paul does nothing. The coin is,tails
+A coin is heads up. Bob does nothing. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,A coin is tails up. Bob does nothing. Paul does nothing. Rita does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Omar does nothing. Bob flips. Rita flips. Paul flips. The coin is,A coin is heads up. Omar does nothing. Bob flips. Rita flips. Paul flips. The coin is,heads
+A coin is tails up. Bob does nothing. Hank does nothing. Paul does nothing. Rita does nothing. The coin is,A coin is heads up. Bob does nothing. Hank does nothing. Paul does nothing. Rita does nothing. The coin is,tails
+A coin is tails up. Bob flips. Rita does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is heads up. Bob flips. Rita does nothing. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Bob flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,A coin is tails up. Bob flips. Omar flips. Hank does nothing. Paul does nothing. The coin is,heads
+A coin is tails up. Rita flips. Paul does nothing. Omar does nothing. Hank does nothing. The coin is,A coin is heads up. Rita flips. Paul does nothing. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is heads up. Omar flips. Paul does nothing. Bob does nothing. Rita flips. The coin is,A coin is tails up. Omar flips. Paul does nothing. Bob does nothing. Rita flips. The coin is,heads
+A coin is heads up. Bob flips. Paul flips. Omar does nothing. Hank does nothing. The coin is,A coin is tails up. Bob flips. Paul flips. Omar does nothing. Hank does nothing. The coin is,heads
+A coin is tails up. Paul does nothing. Hank does nothing. Omar does nothing. Bob flips. The coin is,A coin is heads up. Paul does nothing. Hank does nothing. Omar does nothing. Bob flips. The coin is,heads

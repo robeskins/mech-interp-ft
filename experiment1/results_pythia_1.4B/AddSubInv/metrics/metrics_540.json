@@ -1,0 +1,10 @@
+{
+    "540": {
+        "model_kl": 0.00042967041372321546,
+        "circuit_kl": 0.00040538544999435544,
+        "faithfulness_kl": 2.428496372886002e-05,
+        "percentage_performance_kl": 94.34800187464062,
+        "model_accuracy": 0.9583333134651184,
+        "graph_accuracy": 0.903333306312561
+    }
+}

@@ -5,6 +5,6 @@ dataset_loader_n: 6
 percentage_prune: 0.05
 
 folder_paths:
-    - ../fine-tuning/two-digit-arithmetic/addition
+    - ../fine-tuning/two-digit-arithmetic/addsub
+    - ../fine-tuning/two-digit-arithmetic/addsub_inverse
     - ../fine-tuning/two-digit-arithmetic/new-zarp
-    - ../fine-tuning/two-digit-arithmetic/reverse_addition

@@ -1,0 +1,6 @@
+{
+  "task_a": "../dataset_gen/maths/sequence",
+  "task_b": "../dataset_gen/maths/addsub_inverse",
+  "task_name": "sequence->addsub_inverse",
+  "results_dir": "results/sequence->addsub_inverse"
+}

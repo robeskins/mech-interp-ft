@@ -1,0 +1,10 @@
+model_name: "EleutherAI/pythia-1.4b-deduped"
+scratch_cache_dir: "/mnt/faster0/rje41/.cache/huggingface"
+transformer_lens_name: "pythia-1.4B-deduped"
+dataset_loader_n: 2
+percentage_prune: 0.05
+
+folder_paths:
+    - ../fine-tuning/logic_tasks/robot/robot_counter
+    - ../fine-tuning/logic_tasks/robot/robot_new
+    - ../fine-tuning/logic_tasks/robot/robot_original

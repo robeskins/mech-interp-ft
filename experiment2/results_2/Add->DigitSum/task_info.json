@@ -1,0 +1,6 @@
+{
+  "task_a": "datasets_2/Add",
+  "task_b": "datasets_2/DigitSum",
+  "task_name": "Add->DigitSum",
+  "results_dir": "results/Add->DigitSum"
+}
