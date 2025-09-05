@@ -26,14 +26,14 @@ def create_prompts(prefix_prompt: str, total_examples: int, tokenizer: AutoToken
     counter = 0
 
     for a,b in combos:
-        prompt = prefix_prompt + f'{a}◇{b}='
+        prompt = prefix_prompt + f'{a} ◇ {b} ='
         if a>b:
             answer = a - b
         else:
             answer = a+b 
 
         c = numeric_corrupt_result(b)
-        corrupted_prompt = prefix_prompt + f'{a}◇{c}=' 
+        corrupted_prompt = prefix_prompt + f'{a} ◇ {c} =' 
         length_check = compare_token_count(prompt, corrupted_prompt, tokenizer)
         if not length_check:
             raise ValueError("Token count different from prompt and corrupted!")
@@ -49,10 +49,10 @@ def create_prompts(prefix_prompt: str, total_examples: int, tokenizer: AutoToken
     return prompts
 
 total_examples = 4000
-prefix_prompt = 'Solve the following and respond with only the final answer:'
+prefix_prompt = 'Solve the following and respond with only the final answer: '
 tokenizer = AutoTokenizer.from_pretrained("EleutherAI/pythia-1.4b-deduped")
 prompts = create_prompts(prefix_prompt, total_examples, tokenizer)
 
 generate_csvs(prompts = prompts,
               split_percent = 0.9,
-              results_dir = '../pythia-1.4B/sequential_dataset/CondAddSub')
+              results_dir = '/homes/rje41/mech-interp-ft/experiment2/task_set_0_spacing/CondAddSub/datasets_csv')

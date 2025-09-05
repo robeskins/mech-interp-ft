@@ -6,7 +6,7 @@ from transformers import PreTrainedTokenizer, AutoTokenizer
 from transformer_lens import HookedTransformer
 import torch.nn.functional as F
 from pathlib import Path
-
+from safetensors.torch import load_file
 from eap.graph import Graph
 from eap.evaluate import evaluate_graph, evaluate_baseline
 from eap.attribute import attribute 
@@ -19,18 +19,18 @@ def load_adapter_into_hooked_transformer(adapter_path,
                                          translens_model_name, 
                                          adapter = True, 
                                          scratch_cache_dir = None):
-    base_model = AutoModelForCausalLM.from_pretrained(hf_model_name, cache_dir=scratch_cache_dir)
+
     if adapter == True: 
+        base_model = AutoModelForCausalLM.from_pretrained(hf_model_name, cache_dir=scratch_cache_dir)
         model_with_lora = PeftModel.from_pretrained(base_model, adapter_path)
         adapter_model = model_with_lora.merge_and_unload()
+        model = HookedTransformer.from_pretrained(model_name=translens_model_name, hf_model=adapter_model, cache_dir=scratch_cache_dir)  
     else:
-        adapter_model = base_model
-    model = HookedTransformer.from_pretrained(model_name=translens_model_name, hf_model=adapter_model, cache_dir=scratch_cache_dir)  
+        model = HookedTransformer.from_pretrained(model_name=translens_model_name, cache_dir=scratch_cache_dir)  
 
     model.cfg.use_split_qkv_input = True
     model.cfg.use_attn_result = True
     model.cfg.use_hook_mlp_in = True
-    model.cfg.ungroup_grouped_query_attention = True
     return model
 
 def collate_EAP(xs):
@@ -166,7 +166,7 @@ def run_metrics(g: Graph,
                 model: HookedTransformer,
                 valid_file_csv: str,
                 loader_n: int,
-                percentage_prune: float = None): #Bug: should always prune
+                percentage_prune: float = None):
     
     ds = EAPDataset(valid_file_csv)
     dataloader = ds.to_dataloader(loader_n) 
@@ -189,4 +189,3 @@ def run_metrics(g: Graph,
             'graph_accuracy': circuit_performance_acc
             }
     return data, g
-

@@ -38,19 +38,38 @@ def base_add(num1, num2, base): #BUG only for base 10 and below
 def get_valid_combos(base: int, tokenizer: AutoTokenizer):
     combos = []
 
-    for a in tqdm(range(100, 1000), desc="Processing A"):
-        for b in range(100, 1000):
+    for a in tqdm(range(1, 100), desc="Processing A"):
+        for b in range(1, 100):
             result = base_add(a, b, base)
+            base_10_result = a + b
+
+            if base == 10:
+                if (a % 10 + b % 10) < 10:
+                    continue
+            else:
+                if result == str(base_10_result):
+                    continue
+
             if result and is_single_token(result, tokenizer):
                 combos.append((a, b))
 
     random.shuffle(combos)
+    print(len(combos))
     return combos
 
-def corrupt_result(correct_result: int, tokenizer: AutoTokenizer):
+def corrupt_result(a: int, b: int, base: int, tokenizer: AutoTokenizer):
     while True:
-        c = random.randint(100, 1000)
-        if c != correct_result and compare_token_count(correct_result, c, tokenizer):
+        c = random.randint(1, 100)
+        if c == b:
+            continue
+        
+        if not compare_token_count(b, c, tokenizer):
+            continue
+        
+        sum_ac = base_add(a, c, base)
+        sum_ab = base_add(a, b, base)
+        
+        if sum_ac and sum_ac != sum_ab:
             return c
 
 def create_prompts(prefix_prompt: str, total_examples: int, tokenizer: AutoTokenizer, base: int):
@@ -60,7 +79,7 @@ def create_prompts(prefix_prompt: str, total_examples: int, tokenizer: AutoToken
     
     for a,b in combos:
         prompt = prefix_prompt + f'{a}+{b}='
-        c = corrupt_result(b, tokenizer)
+        c = corrupt_result(a, b, base,tokenizer)
         answer = base_add(a,b,base)
         corrupted_prompt = prefix_prompt + f'{a}+{c}='
         
@@ -77,11 +96,12 @@ def create_prompts(prefix_prompt: str, total_examples: int, tokenizer: AutoToken
         raise ValueError("Not enough combos for total amount")
     return prompts
 
-total_examples = 6000
-prefix_prompt = 'Solve the following and respond with only the final answer:'
+base = 10
+total_examples = 2500
+prefix_prompt = f'Solve the following in base {base} and respond with only the final answer:'
 tokenizer = AutoTokenizer.from_pretrained("EleutherAI/pythia-1.4b-deduped")
-prompts = create_prompts(prefix_prompt, total_examples, tokenizer, base = 16)
+prompts = create_prompts(prefix_prompt, total_examples, tokenizer, base = base)
 
 generate_csvs(prompts = prompts,
-              split_percent = 0.9,
-              results_dir = '../pythia-1.4B/three-digit/AddBase16')
+              split_percent = 0.8,
+              results_dir = '/homes/rje41/mech-interp-ft/experiment1/base_tasks_2d/AddBase10/datasets_csv')

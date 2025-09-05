@@ -31,9 +31,8 @@ def generate_csvs(prompts: list[list[str]],
                   split_percent: float,
                   results_dir: str):
     
-    if not check_uniqueness:
+    if not check_uniqueness(prompts):
         raise ValueError("Non-unique rows in prompts")
-    random.shuffle(prompts)
     split_point = int(len(prompts) * split_percent)
     train = prompts[:split_point]
     validation = prompts[split_point:]

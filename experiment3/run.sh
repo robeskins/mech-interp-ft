@@ -1,5 +1,5 @@
 GPU_ID=0
-THRESHOLD=21504
+THRESHOLD=21000
 
 while true; do
     MEM_TOTAL=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | sed -n "$((GPU_ID+1))p")

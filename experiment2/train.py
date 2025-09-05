@@ -6,9 +6,11 @@ from transformers import (
 import os
 from pathlib import Path
 from itertools import combinations, product
+from itertools import permutations
 import gc
 import torch
 import json
+import shutil
 
 def get_tokenized_datasets(dataset_path: str, tokenizer):
     train_file = Path(dataset_path) / 'train.csv'
@@ -24,42 +26,48 @@ def get_tokenized_datasets(dataset_path: str, tokenizer):
                                                   max_length = 32)
     return tokenized_datasets
 
+def main(task_combos: list[tuple],
+         task_root_folder: str,
+         model_cache_dir: str,
+         checkpoint_cache_dir: str,
+         run_name: str, 
+         learning_rate_continue: bool,
+         max_steps_a: int,
+         max_steps_b: int,
+         save_steps_task_b: int,
+         learning_rate: float,
+         lora_r: int,
+         lora_alpha: int,
+         model_name: str,
+         per_device_train_batch_size: int,
+         gradient_accumulation_steps: int,
+         weight_decay: float,
+         logging_steps: int
+         ):
+    checkpoint_cache_dir = Path(checkpoint_cache_dir)
+    checkpoint_cache_dir.mkdir(parents=True, exist_ok=True)
+    run_dir = checkpoint_cache_dir / run_name  
 
-def get_combos(task_type_folders: list[str]):
-    all_task_folders = []   
-
-    for task_type_folder in task_type_folders:
-        subfolders = [p for p in Path(task_type_folder).glob('*') if p.is_dir()]
-        all_task_folders.extend(subfolders)
-
-    folder_combos = [
-    (a, b) for a, b in product(all_task_folders, repeat=2)
-    if a != b
-    ]
-    print(folder_combos)
-    return folder_combos
-
-def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool = False):
-    #load first adapter and train
-    scratch_cache_dir = "/mnt/faster0/rje41/.cache/huggingface"
-    model_name = "EleutherAI/pythia-1.4b-deduped"
-    lora_r = 32
-    lora_alpha = 64
-    save_steps_task_b = 72
-    max_steps = 360
-    learning_rate = 3e-4
+    if run_dir.exists():
+        answer = input(f"The directory {run_dir} already exists. Do you want to delete it? (y/n): ").strip().lower()
+        if answer == 'y':
+            shutil.rmtree(run_dir)
+            print(f"Deleted {run_dir}")
+        else:
+            print("Exiting script. Please choose a different run_name or delete the directory manually.")
+            exit(1)
     
-    if not folder_combos:
-        folder_combos = get_combos(folders)
-    else:
-        folder_combos = [(Path(folders[0]) / task_a, Path(folders[0]) / task_b) for task_a, task_b in folder_combos]
-
-    print(len(folder_combos))
+    task_combos = [(Path(task_root_folder) / task_a, Path(task_root_folder) / task_b) for task_a, task_b in task_combos]
  
-    for task_a, task_b in folder_combos:
+    for task_a, task_b in task_combos:
+
         task_name = f"{task_a.name}->{task_b.name}"
-        print(task_name)
-        base_dir = Path(f"./results/{task_name}")       
+        print('Processing:',task_name)
+        
+        base_dir = checkpoint_cache_dir / run_name / task_name 
+        if base_dir.exists():
+            print('base_dir exists')
+        base_dir.mkdir(parents=True, exist_ok=True) 
 
         task_info = {
             "task_a": str(task_a),
@@ -68,21 +76,20 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
             "results_dir": str(base_dir)
         }       
 
-        base_dir.mkdir(parents=True, exist_ok=True)     
         with open(base_dir / "task_info.json", "w") as f:
             json.dump(task_info, f, indent=2)
         
         checkpoints_dir = base_dir / "checkpoints"
 
         training_args_0 = TrainingArguments(output_dir= checkpoints_dir,
-                                          per_device_train_batch_size=8,
-                                          gradient_accumulation_steps=5,
-                                          weight_decay=0.01,
-                                          logging_steps=10,
-                                          save_steps=max_steps,
+                                          per_device_train_batch_size=per_device_train_batch_size,
+                                          gradient_accumulation_steps=gradient_accumulation_steps,
+                                          weight_decay=weight_decay,
+                                          logging_steps=logging_steps,
+                                          save_steps=max_steps_a,
                                           save_strategy="steps",
                                           learning_rate=learning_rate,
-                                          max_steps= max_steps,
+                                          max_steps= max_steps_a,
                                           fp16=True,
                                           report_to="none",
                                           lr_scheduler_type="linear", 
@@ -90,11 +97,10 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
 
         model, tokenizer = setup_model_peft(
             model_name = model_name,
-            scratch_cache_dir = scratch_cache_dir,
+            scratch_cache_dir = model_cache_dir,
             lora_r = lora_r,
             lora_alpha = lora_alpha
         )   
-        print(task_a)
         tokenized_datasets = get_tokenized_datasets(task_a / 'datasets_csv', tokenizer)
     
         trainer = Trainer(
@@ -106,9 +112,16 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
         )
         trainer.train() 
         if learning_rate_continue:
-            new_lr = trainer.optimizer.param_groups[0]["lr"]
+            new_lr = learning_rate / 10
         else: 
             new_lr = learning_rate
+
+        del trainer
+        del model
+        del tokenizer
+        del tokenized_datasets
+        gc.collect()
+        torch.cuda.empty_cache()
 
         #Rename final checkpoint to start
         output_dir = training_args_0.output_dir
@@ -131,7 +144,7 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
         #Load second adapter and train
         model, tokenizer = setup_model_peft(
             model_name = model_name,
-            scratch_cache_dir = scratch_cache_dir,
+            scratch_cache_dir = model_cache_dir,
             lora_r = lora_r,
             lora_alpha = lora_alpha,
             load_checkpoint = True,
@@ -139,18 +152,18 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
         )
         tokenized_datasets = get_tokenized_datasets(task_b / 'datasets_csv', tokenizer)
         training_args_1 = TrainingArguments(output_dir= checkpoints_dir,
-                                          per_device_train_batch_size=8,
-                                          gradient_accumulation_steps=5,
-                                          weight_decay=0.01,
-                                          logging_steps=10,
+                                          per_device_train_batch_size=per_device_train_batch_size,
+                                          gradient_accumulation_steps=gradient_accumulation_steps,
+                                          weight_decay=weight_decay,
+                                          logging_steps=logging_steps,
                                           save_steps=save_steps_task_b,
                                           save_strategy="steps",
                                           learning_rate=new_lr,
-                                          max_steps=max_steps,
+                                          max_steps= max_steps_b,
                                           fp16=True,
                                           report_to="none",
                                           lr_scheduler_type="linear", 
-                                  ) 
+                                  )      
 
         trainer = Trainer(
             model=model,
@@ -169,22 +182,25 @@ def main(folders, folder_combos: list[str] = None, learning_rate_continue: bool 
         torch.cuda.empty_cache()
 
 if __name__ == '__main__':
-    combos = [
-        ('AddSub', 'AddSubAlias'),
-        ('AddSub', 'CondAddSub'),
-        ('AddSub','AddSub'),
-        ('Add','Sub'),
-        ('Sub', 'Abs'),
-        ('Add', 'Abs'),
-        ('Add', 'AddSub'),
-        ('Sub', 'AddSub'),
-        ('Add', 'CondAddSub'),
-        ('Modulo', 'AddSub'),
-        ('FloorDiv','Abs'),
-        ('Abs', 'Modulo'),
-        ('Sub','Modulo'),
-        ('Add','Modulo'),
-        ('AddSub','Modulo')
-    ]
-    folders = ['tasks']
-    main(folders,folder_combos=combos)
+    tasks = ['Abs','Add','AddSub','AddSubAlias','CondAddSub','FloorDiv','Modulo','Sub']
+    combos = list(permutations(tasks, 2))
+    print(len(combos))
+    main(task_combos = combos,
+         task_root_folder = 'task_set_0_spacing',
+         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
+         checkpoint_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_2",
+         run_name = 'forgetting_graph_set_0_lr_false_spaced', 
+         learning_rate_continue = False,
+         max_steps_a = 270,
+         max_steps_b = 270,
+         save_steps_task_b = 270,
+         learning_rate = 3e-4,
+         lora_r = 32,
+         lora_alpha = 64,
+         model_name = "EleutherAI/pythia-1.4b-deduped",
+         per_device_train_batch_size = 8,
+         gradient_accumulation_steps = 5,
+         weight_decay = 0.01,
+         logging_steps = 10
+        )
+    

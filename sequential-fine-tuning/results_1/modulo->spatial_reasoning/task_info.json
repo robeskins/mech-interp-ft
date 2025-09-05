@@ -1,6 +1,0 @@
-{
-  "task_a": "../dataset_gen/maths/modulo",
-  "task_b": "../dataset_gen/maths/spatial_reasoning",
-  "task_name": "modulo->spatial_reasoning",
-  "results_dir": "results/modulo->spatial_reasoning"
-}

@@ -14,10 +14,11 @@ def run_metrics_adapter(path_valid: str,
                         transformer_lens_name: str,
                         cache_dir: str,
                         loader_n: str,
-                        percentage_prune: str):
+                        percentage_prune: str,
+                        results_ouput: str):
     #Run on basemodel
     task_validation = Path(path_valid) / 'datasets_csv' / 'validation.csv'
-    results_0 = task / results_name / 'checkpoint-0'
+    results_0 = Path(results_ouput) / task.name / results_name / 'checkpoint-0'
 
     results_0.mkdir(parents=True, exist_ok=True)
     graph, model = run_eap_kl_baseline(model_name, 
@@ -49,7 +50,7 @@ def run_metrics_adapter(path_valid: str,
     checkpoints = [f for f in checkpoint_folder.iterdir() if f.is_dir()]
     for checkpoint in checkpoints:
          checkpoint_name = checkpoint.name
-         result_dir = task /results_name/  checkpoint_name
+         result_dir = Path(results_ouput) / task.name / results_name / checkpoint_name
          result_dir.mkdir(parents=True, exist_ok=True)
 
          graph, model = run_eap_kl(
@@ -78,46 +79,72 @@ def run_metrics_adapter(path_valid: str,
          torch.cuda.empty_cache()
          gc.collect()
 
-model_name = 'EleutherAI/pythia-1.4b-deduped'
-transformer_lens_name = "pythia-1.4B-deduped"
-cache_dir = "/mnt/faster0/rje41/.cache/huggingface"
-loader_n = 6
-percentage_prune = 0.05
 
-results_root = Path("./results")
-task_folders = [p for p in results_root.iterdir() if p.is_dir()]
-
-for task in task_folders:
-    task_info_file = task / 'task_info.json'
-    with open(task_info_file, "r") as f:
-        task_info = json.load(f)
-
-
-    run_metrics_adapter(task_info['task_validation_path'], 
-                        task,
-                        'task_single', 
-                        model_name,
-                        transformer_lens_name,
-                        cache_dir,
-                        loader_n,
-                        percentage_prune)
+def main(model_name: str,
+         transformer_lens_name: str,
+         model_cache_dir: str,
+         checkpoints_cache_dir: str,
+         run_name: str,
+         loader_n: int,
+         percentage_prune: int):
     
-    if 'task_a_validation_path' in task_info:
-        run_metrics_adapter(task_info['task_a_validation_path'], 
+    checkpoints_cache_dir = Path(checkpoints_cache_dir)
+    checkpoints_cache_dir.mkdir(parents=True, exist_ok=True)
+    results_root = Path(checkpoints_cache_dir) / run_name
+    task_folders = [p for p in results_root.iterdir() if p.is_dir()]
+    results_ouput = f'./results/{run_name}' 
+
+    for task in task_folders:
+        task_info_file = task / 'task_info.json'
+        with open(task_info_file, "r") as f:
+            task_info = json.load(f)    
+
+
+        run_metrics_adapter(task_info['task_validation_path'], 
                             task,
-                            'task_a', 
+                            'task_single', 
                             model_name,
                             transformer_lens_name,
-                            cache_dir,
+                            model_cache_dir,
                             loader_n,
-                            percentage_prune)
-        
-    if 'task_b_validation_path' in task_info:
-        run_metrics_adapter(task_info['task_b_validation_path'], 
-                            task,
-                            'task_b', 
-                            model_name,
-                            transformer_lens_name,
-                            cache_dir,
-                            loader_n,
-                            percentage_prune)
+                            percentage_prune,
+                            results_ouput)
+
+        if 'task_a_validation_path' in task_info:
+            run_metrics_adapter(task_info['task_a_validation_path'], 
+                                task,
+                                'task_a', 
+                                model_name,
+                                transformer_lens_name,
+                                model_cache_dir,
+                                loader_n,
+                                percentage_prune,
+                                results_ouput)
+
+        if 'task_b_validation_path' in task_info:
+            run_metrics_adapter(task_info['task_b_validation_path'], 
+                                task,
+                                'task_b', 
+                                model_name,
+                                transformer_lens_name,
+                                model_cache_dir,
+                                loader_n,
+                                percentage_prune,
+                                results_ouput)
+
+if __name__ == '__main__':
+    main(model_name = 'EleutherAI/pythia-1.4b-deduped',
+         transformer_lens_name = 'pythia-1.4B-deduped',
+         model_cache_dir = '/mnt/faster0/rje41/.cache/huggingface',
+         checkpoints_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_3",
+         run_name = 'task_set_1_half_true',
+         loader_n = 6,
+         percentage_prune = 0.05)
+    
+    main(model_name = 'EleutherAI/pythia-1.4b-deduped',
+         transformer_lens_name = 'pythia-1.4B-deduped',
+         model_cache_dir = '/mnt/faster0/rje41/.cache/huggingface',
+         checkpoints_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_3",
+         run_name = 'task_set_1_half_false',
+         loader_n = 6,
+         percentage_prune = 0.05)

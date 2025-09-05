@@ -1,6 +1,0 @@
-{
-  "task_a": "../dataset_gen/maths/sequence",
-  "task_b": "../dataset_gen/maths/add_sub",
-  "task_name": "sequence->add_sub",
-  "results_dir": "results/sequence->add_sub"
-}

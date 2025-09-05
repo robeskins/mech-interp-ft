@@ -1,5 +1,5 @@
 GPU_ID=1
-THRESHOLD=21504
+THRESHOLD=19000
 
 while true; do
     MEM_TOTAL=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader,nounits | sed -n "$((GPU_ID+1))p")
@@ -23,5 +23,5 @@ while true; do
     fi
 done
 
-CUDA_VISIBLE_DEVICES=$GPU_ID python3 train.py
+# CUDA_VISIBLE_DEVICES=$GPU_ID python3 train.py
 CUDA_VISIBLE_DEVICES=$GPU_ID python3 run_metrics.py

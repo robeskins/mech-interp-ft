@@ -1,6 +1,0 @@
-{
-  "task_a": "../dataset_gen/maths/add_two_digit",
-  "task_b": "../dataset_gen/maths/sequence",
-  "task_name": "add_two_digit->sequence",
-  "results_dir": "results/add_two_digit->sequence"
-}
