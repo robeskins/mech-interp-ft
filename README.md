@@ -6,15 +6,15 @@ This repo uses the EAP-IG algorithim to investigate pre-training priors in LLMs 
 
 To install the required packages, create a virtual environment and run: pip install -r requirements.txt. 
 
-There are some local packages that need to be installed. The EAP-IG package is in external packages. This should install in the requirements.txt. However, if not there are install info in the README.md within. This requires pip install . from the folder. 
+There are some local packages that need to be installed. The EAP-IG package is in external packages. This should install in the requirements.txt. However, if not, there are install info in the README.md within. This requires pip install . from the folder. 
 
 In addition, we use a utils package for common packages across experiments. This should also install in the requirements.txt. 
 
 ## Structure:
 
-`dataset_gen` folder includes all the scripts needed to reproduce the datasets. 
+- `dataset_gen` folder includes all the scripts needed to reproduce the datasets. 
 
-`prior_tasks` folder includes all files and scripts related to experiment 1 that are used to study pre-training priors in LLMs. This includes:
+- `prior_tasks` folder includes all files and scripts related to experiment 1 that are used to study pre-training priors in LLMs. This includes:
 
 - Datasets for both the AddSub and AddBase tasks
 - `train.py`: This script iterates through the tasks in the `prior_tasks` folder, fine-tunes an adapter for each task, and saves the trained adapter to a specified location.
@@ -44,8 +44,8 @@ Fine-tuning and circuit generation require a GPU with at least 15GB of ram. In a
 ## References:
 
 [1] Michael Hanna, Sandro Pezzelle, Yonatan Belinkov. "Have Faith in Faithfulness: Going Beyond Circuit Overlap When Finding Model Mechanisms."  COLM 2024. https://github.com/hannamw/eap-ig
-    - Used for the EAP-IG package to find circuits. 
+- Used for the EAP-IG package to find circuits. 
 
 [2] - Xu Wang et al. “Towards Understanding Fine‑Tuning Mechanisms of LLMs via Circuit Analysis.” ICML 2025. https://github.com/Xu0615/FinetuneCircuits
-    - Used for evaluation metrics and fine-tune masking function. Present in the eap_utils.py and ft_utils.py files. 
-    - General inspiration and guidance to the EAP-IG package.
+- Used for evaluation metrics and fine-tune masking function. Present in the eap_utils.py and ft_utils.py files. 
+- General inspiration and guidance to the EAP-IG package.
