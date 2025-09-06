@@ -6,6 +6,7 @@ import json
 import gc
 import torch
 
+#Replace with local files and adapter paths
 paths = ['/mnt/faster0/rje41/checkpoints/results/experiment_1/base_4_epochs_small_ds/AddBase8/checkpoint-200/graph.json', 
         '/mnt/faster0/rje41/checkpoints/results/experiment_1/base_4_epochs_small_ds/AddBase9/checkpoint-200/graph.json', 
         '/mnt/faster0/rje41/checkpoints/results/experiment_1/base_4_epochs_small_ds/AddBase10/checkpoint-200/graph.json']

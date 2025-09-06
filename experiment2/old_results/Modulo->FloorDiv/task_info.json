@@ -1,6 +1,0 @@
-{
-  "task_a": "datasets_2/Modulo",
-  "task_b": "datasets_2/FloorDiv",
-  "task_name": "Modulo->FloorDiv",
-  "results_dir": "results/Modulo->FloorDiv"
-}

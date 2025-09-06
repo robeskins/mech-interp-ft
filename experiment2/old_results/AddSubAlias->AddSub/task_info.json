@@ -1,6 +1,0 @@
-{
-  "task_a": "datasets_2/AddSubAlias",
-  "task_b": "datasets_2/AddSub",
-  "task_name": "AddSubAlias->AddSub",
-  "results_dir": "results/AddSubAlias->AddSub"
-}

@@ -1,0 +1,353 @@
+[
+    {
+        "adapter_path": "/mnt/faster0/rje41/checkpoints/experiment_1/add_sub_2_epochs/AddSub/checkpoints/checkpoint-270",
+        "graph_path": "/mnt/faster0/rje41/checkpoints/results/experiment_1/add_sub_2_epochs/AddSub/checkpoint-270/graph.json",
+        "validation_dataset": "/homes/rje41/mech-interp-ft/experiment1/add_sub_tasks/AddSub/datasets_csv/validation.csv",
+        "results": [
+            {
+                "percentage_prune": 0.001,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.00019773904932662845,
+                    "faithfulness_kl": 0.0002353775198571384,
+                    "percentage_performance_kl": 45.65492603972161,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.12666666507720947
+                }
+            },
+            {
+                "percentage_prune": 0.005,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0003201860818080604,
+                    "faithfulness_kl": 0.00011293048737570643,
+                    "percentage_performance_kl": 73.92607547004484,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.40833333134651184
+                }
+            },
+            {
+                "percentage_prune": 0.01,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0003643283562269062,
+                    "faithfulness_kl": 6.878821295686066e-05,
+                    "percentage_performance_kl": 84.1178523632804,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.621666669845581
+                }
+            },
+            {
+                "percentage_prune": 0.02,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0003868071944452822,
+                    "faithfulness_kl": 4.630937473848462e-05,
+                    "percentage_performance_kl": 89.30787274526179,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.7933333516120911
+                }
+            },
+            {
+                "percentage_prune": 0.03,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.00039715025923214853,
+                    "faithfulness_kl": 3.5966309951618314e-05,
+                    "percentage_performance_kl": 91.6959284149764,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.8199999928474426
+                }
+            },
+            {
+                "percentage_prune": 0.05,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0004081630031578243,
+                    "faithfulness_kl": 2.4953566025942564e-05,
+                    "percentage_performance_kl": 94.23860276854127,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.871666669845581
+                }
+            },
+            {
+                "percentage_prune": 0.1,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0004215669760014862,
+                    "faithfulness_kl": 1.154959318228066e-05,
+                    "percentage_performance_kl": 97.33337535341894,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.9083333611488342
+                }
+            },
+            {
+                "percentage_prune": 0.15,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.00042590315570123494,
+                    "faithfulness_kl": 7.213413482531905e-06,
+                    "percentage_performance_kl": 98.334533011257,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.9283333420753479
+                }
+            },
+            {
+                "percentage_prune": 0.3,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0004296103143133223,
+                    "faithfulness_kl": 3.506254870444536e-06,
+                    "percentage_performance_kl": 99.19045930820603,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.9399999976158142
+                }
+            },
+            {
+                "percentage_prune": 0.5,
+                "metrics": {
+                    "model_kl": 0.00043311656918376684,
+                    "circuit_kl": 0.0004308772040531039,
+                    "faithfulness_kl": 2.239365130662918e-06,
+                    "percentage_performance_kl": 99.4829647974717,
+                    "model_accuracy": 0.95333331823349,
+                    "graph_accuracy": 0.9416666626930237
+                }
+            }
+        ]
+    },
+    {
+        "adapter_path": "/mnt/faster0/rje41/checkpoints/experiment_1/add_sub_2_epochs/AddSubInv/checkpoints/checkpoint-270",
+        "graph_path": "/mnt/faster0/rje41/checkpoints/results/experiment_1/add_sub_2_epochs/AddSubInv/checkpoint-270/graph.json",
+        "validation_dataset": "/homes/rje41/mech-interp-ft/experiment1/add_sub_tasks/AddSubInv/datasets_csv/validation.csv",
+        "results": [
+            {
+                "percentage_prune": 0.001,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.00019379978766664863,
+                    "faithfulness_kl": 0.0002403933904133737,
+                    "percentage_performance_kl": 44.634461675243344,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.13333334028720856
+                }
+            },
+            {
+                "percentage_prune": 0.005,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.00033016741508617997,
+                    "faithfulness_kl": 0.00010402576299384236,
+                    "percentage_performance_kl": 76.04159433046867,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.4449999928474426
+                }
+            },
+            {
+                "percentage_prune": 0.01,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.0003630735445767641,
+                    "faithfulness_kl": 7.111963350325823e-05,
+                    "percentage_performance_kl": 83.62027846274664,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.6033333539962769
+                }
+            },
+            {
+                "percentage_prune": 0.02,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.0003955855790991336,
+                    "faithfulness_kl": 3.8607598980888724e-05,
+                    "percentage_performance_kl": 91.10819770324137,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.7366666793823242
+                }
+            },
+            {
+                "percentage_prune": 0.03,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.0004053482261952013,
+                    "faithfulness_kl": 2.8844951884821057e-05,
+                    "percentage_performance_kl": 93.35665474700183,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.7733333110809326
+                }
+            },
+            {
+                "percentage_prune": 0.05,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.00041188299655914307,
+                    "faithfulness_kl": 2.231018152087927e-05,
+                    "percentage_performance_kl": 94.86169229568884,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.8316666483879089
+                }
+            },
+            {
+                "percentage_prune": 0.1,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.00042687327368184924,
+                    "faithfulness_kl": 7.319904398173094e-06,
+                    "percentage_performance_kl": 98.31413647940272,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.8666666746139526
+                }
+            },
+            {
+                "percentage_prune": 0.15,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.0004287921474315226,
+                    "faithfulness_kl": 5.401030648499727e-06,
+                    "percentage_performance_kl": 98.75607657578067,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.8816666603088379
+                }
+            },
+            {
+                "percentage_prune": 0.3,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.0004322686290834099,
+                    "faithfulness_kl": 1.9245489966124296e-06,
+                    "percentage_performance_kl": 99.55675282483188,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.8899999856948853
+                }
+            },
+            {
+                "percentage_prune": 0.5,
+                "metrics": {
+                    "model_kl": 0.00043419317808002234,
+                    "circuit_kl": 0.00043370266212150455,
+                    "faithfulness_kl": 4.905159585177898e-07,
+                    "percentage_performance_kl": 99.8870281747201,
+                    "model_accuracy": 0.8983333110809326,
+                    "graph_accuracy": 0.8933333158493042
+                }
+            }
+        ]
+    },
+    {
+        "adapter_path": "/mnt/faster0/rje41/checkpoints/experiment_1/add_sub_2_epochs/CondAddSub/checkpoints/checkpoint-270",
+        "graph_path": "/mnt/faster0/rje41/checkpoints/results/experiment_1/add_sub_2_epochs/CondAddSub/checkpoint-270/graph.json",
+        "validation_dataset": "/homes/rje41/mech-interp-ft/experiment1/add_sub_tasks/CondAddSub/datasets_csv/validation.csv",
+        "results": [
+            {
+                "percentage_prune": 0.001,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.000232220787438564,
+                    "faithfulness_kl": 0.00021602421475108713,
+                    "percentage_performance_kl": 51.80666517288063,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.12833333015441895
+                }
+            },
+            {
+                "percentage_prune": 0.005,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0003414954408071935,
+                    "faithfulness_kl": 0.00010674956138245761,
+                    "percentage_performance_kl": 76.18499685194656,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.36666667461395264
+                }
+            },
+            {
+                "percentage_prune": 0.01,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.00039471033960580826,
+                    "faithfulness_kl": 5.3534662583842874e-05,
+                    "percentage_performance_kl": 88.05683000985418,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.628333330154419
+                }
+            },
+            {
+                "percentage_prune": 0.02,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0004045034002047032,
+                    "faithfulness_kl": 4.374160198494792e-05,
+                    "percentage_performance_kl": 90.24158623715319,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.6899999976158142
+                }
+            },
+            {
+                "percentage_prune": 0.03,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0004128034343011677,
+                    "faithfulness_kl": 3.5441567888483405e-05,
+                    "percentage_performance_kl": 92.0932597763827,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.7250000238418579
+                }
+            },
+            {
+                "percentage_prune": 0.05,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0004238686815369874,
+                    "faithfulness_kl": 2.4376320652663708e-05,
+                    "percentage_performance_kl": 94.56183102241256,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.7833333611488342
+                }
+            },
+            {
+                "percentage_prune": 0.1,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.00043565293890424073,
+                    "faithfulness_kl": 1.2592063285410404e-05,
+                    "percentage_performance_kl": 97.19080787874958,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.8866666555404663
+                }
+            },
+            {
+                "percentage_prune": 0.15,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0004409811517689377,
+                    "faithfulness_kl": 7.263850420713425e-06,
+                    "percentage_performance_kl": 98.37949104056266,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.9049999713897705
+                }
+            },
+            {
+                "percentage_prune": 0.3,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.0004462647484615445,
+                    "faithfulness_kl": 1.980253728106618e-06,
+                    "percentage_performance_kl": 99.55822067877317,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.9083333611488342
+                }
+            },
+            {
+                "percentage_prune": 0.5,
+                "metrics": {
+                    "model_kl": 0.00044824500218965113,
+                    "circuit_kl": 0.00044676687684841454,
+                    "faithfulness_kl": 1.4781253412365913e-06,
+                    "percentage_performance_kl": 99.67024164597127,
+                    "model_accuracy": 0.9283333420753479,
+                    "graph_accuracy": 0.925000011920929
+                }
+            }
+        ]
+    }
+]
