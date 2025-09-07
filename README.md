@@ -1,6 +1,6 @@
 # mech-interp-ft
 
-This repo uses the EAP-IG algorithim to investigate pre-training priors in LLMs and sequnetial fine-tuning.
+This repo uses the EAP-IG algorithim to investigate pre-training priors in LLMs and sequential fine-tuning.
 
 ## Installation
 
