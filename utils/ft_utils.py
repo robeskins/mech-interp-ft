@@ -8,10 +8,6 @@ from peft import get_peft_model, LoraConfig, TaskType, PeftModel
 import csv
 
 def load_and_preprocess_data(train_file, validation_file, tokenizer, max_length = 32, method='simple'):
-    """
-    method: 'simple' uses the second version with tokenizer.encode for prompt length
-            'full' uses the first version that checks attention mask per token
-    """
     data_files = {
         'train': train_file,
         'validation': validation_file

@@ -12,6 +12,8 @@ In addition, we use a utils package for common packages across experiments. This
 
 ## Structure:
 
+- `demo` we provide a demo for the graph generations and evaluating. 
+
 - `dataset_gen` folder includes all the scripts needed to reproduce the datasets. 
 
 - `prior_tasks` folder includes all files and scripts related to experiment 1 that are used to study pre-training priors in LLMs. This includes:
@@ -22,9 +24,9 @@ In addition, we use a utils package for common packages across experiments. This
 - `run.sh` allows you to run the scripts sequentially on the cloud.  
 - Analysis scripts are also in there to analyse the circuit dynamics. 
 
-Note: you will need to replace the cache directories to yours. In addition, train.py variables need to align with run_metrics.py. 
+Note: you will need to replace the cache directories to your own. In addition, train.py variables need to align with run_metrics.py. 
 
-`sequential_fine_tuning` folder includes all files and scripts related to experiment 2 that are used to study sequential fine-tuning in LLMs. This follows the same setup as previous:
+`sequential_fine_tuning` folder includes all files and scripts related to experiment 2 that are used to study sequential fine-tuning in LLMs. This follows the same setup as `prior_tasks`
 
 - `train.py`: trains the adapters sequentially, this takes all the permutations or you can specify the combinations. This stores the adapter checkpoints in the desired location, alongside the file_paths for the tasks in the task_info.json.
 - `run_metrics.py` takes the adapter checkpoints and runs the EAP-IG algorithim to extract the circuits. It then evaluates the model and circuits on the tasks specified in the task_info.json
@@ -36,9 +38,9 @@ Note: you will need to replace the cache directories to yours. In addition, trai
 The checkpoints and graph data is too large to include in the repo (~30GB). An example can be found in example_data in prior tasks and full data and results can be found here: https://drive.google.com/drive/folders/1yzWO2O7AaY1CrQtoK6489bE3TpLhoK9Q?usp=sharing 
 
 ## Important Details:
-File paths will have to be changed in the files to align with your local set-up
+File paths will have to be changed in the files to align with your local set-up.
 
-Fine-tuning and circuit generation require a GPU with at least 15GB of ram. In addition to this, the process is slow and best to leave as a running process. For sequential fine-tuning of 55 tasks ran for 24hours. 
+Fine-tuning and circuit generation require a GPU with at least 15GB of ram. In addition to this, the process is slow and best to leave as a running process. For sequential fine-tuning of 55 tasks it took 24hours. 
 
 
 ## References:

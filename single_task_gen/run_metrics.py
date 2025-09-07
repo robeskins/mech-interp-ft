@@ -116,7 +116,7 @@ if __name__ == '__main__':
         transformer_lens_name = "pythia-1.4B-deduped",
         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
         checkpoint_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_0",
-        run_name = "test",
+        run_name = "test", #Needs to match train.py
         loader_n = 6,
         percentage_prune = 0.05,
         dataset_root = 'task_set_0',
