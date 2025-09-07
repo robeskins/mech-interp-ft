@@ -81,6 +81,7 @@ def main(task_combos: list[tuple],
         
         checkpoints_dir = base_dir / "checkpoints"
 
+        #Set up first task
         training_args_0 = TrainingArguments(output_dir= checkpoints_dir,
                                           per_device_train_batch_size=per_device_train_batch_size,
                                           gradient_accumulation_steps=gradient_accumulation_steps,
@@ -182,21 +183,16 @@ def main(task_combos: list[tuple],
         torch.cuda.empty_cache()
 
 if __name__ == '__main__':
-    # combos = [('AddSub','AddSubAlias'),       combinations can be manually defined or all permuations
-    #           ('AddSub','CondAddSub'),
-    #           ('Sub','Add'),
-    #           ('Sub', 'Abs'),
-    #           ('FloorDiv','Modulo'),
-    #           ('Add','Modulo')]
+    combos = [('AddSub','AddSubAlias')]      #combinations can be manually defined or all permuations
 
-    tasks = ['Abs','Add','AddSub','AddSubAlias','CondAddSub','FloorDiv','Modulo','Sub']
-    combos = list(permutations(tasks, 2))
+    # tasks = ['Abs','Add','AddSub','AddSubAlias','CondAddSub','FloorDiv','Modulo','Sub']
+    # combos = list(permutations(tasks, 2))
     
     main(task_combos = combos,
          task_root_folder = 'tasks',
-         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
-         checkpoint_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_2",
-         run_name = 'forgetting_graph_set_0_lr_false', 
+         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface", #Change to local cache
+         checkpoint_cache_dir = "./checkpoints",
+         run_name = 'sequnetial_ft_false', 
          learning_rate_continue = False,
          max_steps_a = 270,
          max_steps_b = 270,

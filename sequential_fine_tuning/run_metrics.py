@@ -109,12 +109,12 @@ def main(model_name: str,
 if __name__ == '__main__':
     main(model_name = 'EleutherAI/pythia-1.4b-deduped',
         transformer_lens_name = 'pythia-1.4B-deduped',
-        model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
-        checkpoints_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_2",
-        run_name = 'forgetting_graph_set_0_lr_false',
+        model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface", #Change to local cache
+        checkpoints_cache_dir = "./checkpoints",
+        run_name = 'sequnetial_ft_false',
         loader_n = 6,
         percentage_prune =  0.05,
-        results_output_root = '/mnt/faster0/rje41/checkpoints/results/experiment_2'
+        results_output_root = './results'
         )
     
     

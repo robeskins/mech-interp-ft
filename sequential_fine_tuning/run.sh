@@ -23,5 +23,5 @@ while true; do
     fi
 done
 
-# CUDA_VISIBLE_DEVICES=$GPU_ID python3 train.py
+CUDA_VISIBLE_DEVICES=$GPU_ID python3 train.py
 CUDA_VISIBLE_DEVICES=$GPU_ID python3 run_metrics.py
