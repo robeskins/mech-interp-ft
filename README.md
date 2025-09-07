@@ -6,41 +6,51 @@ This repo uses the EAP-IG algorithim to investigate pre-training priors in LLMs 
 
 To install the required packages, create a virtual environment and run: pip install -r requirements.txt. 
 
-There are some local packages that need to be installed. The EAP-IG package is in external packages. This should install in the requirements.txt. However, if not, there are install info in the README.md within. This requires pip install . from the folder. 
+There are some local packages that need to be installed. The EAP-IG package is in external packages. This should install in the requirements.txt. However, if not, there are install info in the README.md within. This requires pip install . from EAP-IG folder. 
 
-In addition, we use a utils package for common packages across experiments. This should also install in the requirements.txt. 
+In addition, we use a utils package for common packages across experiments. This should also install in the requirements.txt. However, if not run pip install . 
 
 ## Structure:
 
-- `demo` we provide a demo for the graph generations and evaluating. 
+- `demo`
+  - This provides a basic demo on how the tools in utils for the EAP-IG algorithm work. We include some sample data for this. 
 
-- `dataset_gen` folder includes all the scripts needed to reproduce the datasets. 
+- `dataset_gen`
+  - Scripts for generating the datasets.
 
-- `prior_tasks` folder includes all files and scripts related to experiment 1 that are used to study pre-training priors in LLMs. This includes:
+- `single_task_gen`
+  - Scripts for training adapters, then running the EAP-IG on the checkpoints.
+  - We include an example in here that will save checkpoints and graphs locally, but we ran on scratch storage.
 
-- Datasets for both the AddSub and AddBase tasks
-- `train.py`: This script iterates through the tasks in the `prior_tasks` folder, fine-tunes an adapter for each task, and saves the trained adapter to a specified location.
-- `run_metrics.py` takes the adapter checkpoints and runs the EAP-IG algorithim to extract the circuits. It then evaluates the model and circuits. 
-- `run.sh` allows you to run the scripts sequentially on the cloud.  
-- Analysis scripts are also in there to analyse the circuit dynamics. 
+- `prior_tasks` 
+  - This is work for experiment 1. 
+  - This is similar to `single_task_gen` but includes the prior training datasets.
+  - The file paths will have to be updated to run. 
+  - Also includes analysis script of the data, which needs to be imported from the link at bottom of readme.
 
-Note: you will need to replace the cache directories to your own. In addition, train.py variables need to align with run_metrics.py. 
+- `sequential_fine_tuning`
+  - This is the work for experiment 2. 
+  - We include a demo of this that should export checkpoints and graphs locally.
 
-`sequential_fine_tuning` folder includes all files and scripts related to experiment 2 that are used to study sequential fine-tuning in LLMs. This follows the same setup as `prior_tasks`
+- `multi_task_learning`
+  - Folder includes all files and scripts related to multi-task learning. This was experimental work that didn't yield interesting results. However, we include it if anyone wants to extend on this.
+- Each folder has the same workflow for training and circuit evaluation:
+    - `train.py`: This script iterates through the tasks in the `prior_tasks` folder, fine-tunes an adapter for each task, and saves the trained adapter to a specified location.
+    - `run_metrics.py` takes the adapter checkpoints and runs the EAP-IG algorithim to extract the circuits. It then evaluates the model and circuits. 
+    - `run.sh` allows you to run the scripts sequentially on the cloud.  
+    - Analysis scripts are also in there to analyse the circuit dynamics. 
 
-- `train.py`: trains the adapters sequentially, this takes all the permutations or you can specify the combinations. This stores the adapter checkpoints in the desired location, alongside the file_paths for the tasks in the task_info.json.
-- `run_metrics.py` takes the adapter checkpoints and runs the EAP-IG algorithim to extract the circuits. It then evaluates the model and circuits on the tasks specified in the task_info.json
-
-`multi_task_learning` folder includes all files and scripts related to multi task learning. This was experimental work that didn't yield intersting results. However, we include if anyone wants to extend on this. 
+Note: you will need to replace the model cache directories to your own. In addition, train.py variables need to align with run_metrics.py. 
 
 ## Data:
 
-The checkpoints and graph data is too large to include in the repo (~30GB). An example can be found in example_data in prior tasks and full data and results can be found here: https://drive.google.com/drive/folders/1yzWO2O7AaY1CrQtoK6489bE3TpLhoK9Q?usp=sharing 
+- The checkpoints and graph data is too large to include in the repo (~30GB). An example can be found in example_data in prior tasks and full data and results can be found here: https://drive.google.com/drive/folders/1yzWO2O7AaY1CrQtoK6489bE3TpLhoK9Q?usp=sharing 
 
 ## Important Details:
-File paths will have to be changed in the files to align with your local set-up.
 
-Fine-tuning and circuit generation require a GPU with at least 15GB of ram. In addition to this, the process is slow and best to leave as a running process. For sequential fine-tuning of 55 tasks it took 24hours. 
+- Fine-tuning and circuit generation require a GPU with at least 15GB of ram. 
+- In addition to this, the process is slow and best to leave as a running process. 
+- For sequential fine-tuning of 55 tasks it took 24hours. 
 
 
 ## References:

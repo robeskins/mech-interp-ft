@@ -1,4 +1,4 @@
-GPU_ID=6
+GPU_ID=0
 THRESHOLD=17000
 
 while true; do

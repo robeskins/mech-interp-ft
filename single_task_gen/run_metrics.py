@@ -114,11 +114,11 @@ if __name__ == '__main__':
     main(
         model_name = "EleutherAI/pythia-1.4b-deduped",
         transformer_lens_name = "pythia-1.4B-deduped",
-        model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
-        checkpoint_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_0",
+        model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface", #Change to local cache
+        checkpoint_cache_dir = "./checkpoints",
         run_name = "test", #Needs to match train.py
         loader_n = 6,
         percentage_prune = 0.05,
         dataset_root = 'task_set_0',
-        results_output_root = '/mnt/faster0/rje41/checkpoints/results/experiment_0'
+        results_output_root = './results'
     )

@@ -101,6 +101,7 @@ def main(tasks: list[str],
 
 
 if __name__ == '__main__':
+    #Demo
     tasks = ['Add']
     main(tasks = tasks,
          dataset_root = 'task_set_0',
@@ -108,11 +109,11 @@ if __name__ == '__main__':
          model_name = "EleutherAI/pythia-1.4b-deduped",
          lora_r = 16,
          lora_alpha = 32,
-         save_steps = 27,
+         save_steps = 270,
          max_steps = 270,
          learning_rate = 3e-4,
-         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface",
-         checkpoint_cache_dir = "/mnt/faster0/rje41/checkpoints/experiment_0",
+         model_cache_dir = "/mnt/faster0/rje41/.cache/huggingface", #Change to local cache
+         checkpoint_cache_dir = "./checkpoints",
          per_device_train_batch_size = 8,
          gradient_accumulation_steps = 4,
          weight_decay = 0.01,
